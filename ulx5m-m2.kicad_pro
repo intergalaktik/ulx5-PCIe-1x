@@ -62,11 +62,11 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.1,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.2,
+          "thermal_relief_spoke_width": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -1952,7 +1952,7 @@
         "uuid": "9e5cbfd6-8186-4817-919e-acd256336bc8"
       }
     ],
-    "used_designators": "#PWR72,#PWR117,J6,J101-102,FID101-106,R66",
+    "used_designators": "#PWR72,#PWR93,#PWR117,J6,J101-102,FID101-106,R66",
     "variants": []
   },
   "sheets": [
@@ -1983,10 +1983,6 @@
     [
       "e7f41e58-8517-469c-9a21-6f6a704f2114",
       "gpdi-ram"
-    ],
-    [
-      "a29a432d-2cca-4e45-9947-735d9a1918bd",
-      "gpio"
     ],
     [
       "5c4580e2-a442-496c-941e-38ded55dcc84",
