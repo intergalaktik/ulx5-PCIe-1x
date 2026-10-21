@@ -1,0 +1,201 @@
+(footprint "C_0402_SI_CN8"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "AC kondenzator 0402 (1005 Metric), SI pločica 0.3x0.35 mm (poprijeko x uzduž), središta ±0.45 mm, razmak 0.55 mm; rezerva TX: pločica C + vrat 0,09 x 1,17 mm (TASK-5641: 90 ohm, Γ 5,8 %). Kondenzator ostaje 0402 (0201 zabranjen, TASK-5606). Mjere TASK-5640 §4, provjera TASK-5641/TASK-5667. Maska 1:1 (JLC LDI), pasta 1:1 eksplicitno (šablona 0,10 mm, AR 0.81). Vrat voda 0.09 mm x 1.17 mm od središta pločice crta se kao VOD (pravilo kicad_dru_vrat.txt), nije dio footprinta.")
+	(tags "capacitor 0402 AC coupling SI PCIe SerDes TASK-5640 TASK-5641 TASK-5667 ULX5M")
+	(property "Reference" "REF**"
+		(at 0 -1.16 0)
+		(layer "F.SilkS")
+		(uuid "f8e2ac14-d48e-40f4-a636-66b2f0a0c4cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_0402_SI_CN8"
+		(at 0 1.16 0)
+		(layer "F.Fab")
+		(uuid "b7cf45f6-ae1f-4de1-80c7-2bc27f0204ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53da651c-0f7a-47da-a942-11d668d90fde")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "AC coupling capacitor 0402, SI pad (TASK-5640)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "741355e6-bb96-4ca0-b4d9-9c36c908182a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.1078 -0.36)
+		(end 0.1078 -0.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "660bd6d9-951b-4844-8aa5-8995a1eda2c6")
+	)
+	(fp_line
+		(start -0.1078 0.36)
+		(end 0.1078 0.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9251ac0-d11e-4b01-97fd-df7db1c84e87")
+	)
+	(fp_line
+		(start -0.91 -0.46)
+		(end 0.91 -0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "41c8e170-7f57-429f-ad5c-af408f437a1b")
+	)
+	(fp_line
+		(start 0.91 -0.46)
+		(end 0.91 0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae8ae0dc-de0c-4a7c-aaa6-17520828959f")
+	)
+	(fp_line
+		(start 0.91 0.46)
+		(end -0.91 0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e2e77a0-34dc-4b9a-8cff-50a95be5c501")
+	)
+	(fp_line
+		(start -0.91 0.46)
+		(end -0.91 -0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9a3f3da-168c-4831-82d8-e3e3684cdf01")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71332e9d-e9cf-4010-b802-ea2b5a0b5abf")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b005b592-4f84-4a04-a281-2a47c79b6ca3")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d1a697d-22ea-40f5-8846-819385f6074e")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "119a504c-53fa-413c-90c3-8ced3ef7558e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5d611fd5-bbad-469e-bf4f-4d8426e65b7c")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.45 0)
+		(size 0.35 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(solder_paste_margin_ratio 0)
+		(pintype "passive")
+		(uuid "8b948214-9b10-4416-a2a6-dff8fbc442a4")
+	)
+	(pad "2" smd roundrect
+		(at 0.45 0)
+		(size 0.35 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(solder_paste_margin_ratio 0)
+		(pintype "passive")
+		(uuid "db317b78-63da-4674-aa89-50fcc9fb7fd6")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,8 @@
+(version 1)
+# TASK-5649: vrat 0,09 mm samo na AC parovima; svi ostali vodovi i dalje >= 0,127 mm
+(rule "min_vod_0127_osim_AC_vrata"
+  (condition "A.Type == 'track' && A.NetName != '/cm4-hsio/PCIe_TX_N' && A.NetName != '/cm4-hsio/PCIe_TX_P' && A.NetName != '/serdes/PCIe_TX_BC_N' && A.NetName != '/serdes/PCIe_TX_BC_P'")
+  (constraint track_width (min 0.127mm)))
+(rule "min_spoj_0127_osim_AC_vrata"
+  (condition "A.NetName != '/cm4-hsio/PCIe_TX_N' && A.NetName != '/cm4-hsio/PCIe_TX_P' && A.NetName != '/serdes/PCIe_TX_BC_N' && A.NetName != '/serdes/PCIe_TX_BC_P'")
+  (constraint connection_width (min 0.127mm)))

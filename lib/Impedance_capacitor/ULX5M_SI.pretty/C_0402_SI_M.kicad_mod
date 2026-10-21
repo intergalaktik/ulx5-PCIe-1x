@@ -1,0 +1,201 @@
+(footprint "C_0402_SI_M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "AC kondenzator 0402 (1005 Metric), SI pločica 0.4x0.35 mm (poprijeko x uzduž), središta ±0.425 mm, razmak 0.5 mm; REFCLK C136/C137 (M2), C129/C130/C136/C137 (GS) - Murata GRM15 minimum, IPC-A-610 kl. 3. Kondenzator ostaje 0402 (0201 zabranjen, TASK-5606). Mjere TASK-5640 §4, provjera TASK-5641/TASK-5667. Maska 1:1 (JLC LDI), pasta 1:1 eksplicitno (šablona 0,10 mm, AR 0.93).")
+	(tags "capacitor 0402 AC coupling SI PCIe SerDes TASK-5640 TASK-5641 TASK-5667 ULX5M")
+	(property "Reference" "REF**"
+		(at 0 -1.16 0)
+		(layer "F.SilkS")
+		(uuid "b7cb9a06-ff77-49f5-a124-16addd6546fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_0402_SI_M"
+		(at 0 1.16 0)
+		(layer "F.Fab")
+		(uuid "700a1588-bbed-403f-8a38-f5aa4d0a2d0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "763c2111-9ada-4208-b9ac-dbe6ac7bd640")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "AC coupling capacitor 0402, SI pad (TASK-5640)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc75b7db-3f57-4f9f-9b2f-62a556e00929")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.1078 -0.36)
+		(end 0.1078 -0.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97abd2f5-59fb-4931-8f75-035297e9fb6b")
+	)
+	(fp_line
+		(start -0.1078 0.36)
+		(end 0.1078 0.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77c45117-dd3b-4e3f-a004-7709207b3d62")
+	)
+	(fp_line
+		(start -0.91 -0.46)
+		(end 0.91 -0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "26349937-663f-4822-8bac-96fe16f22b17")
+	)
+	(fp_line
+		(start 0.91 -0.46)
+		(end 0.91 0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2a277a3-d6e9-4c8e-a7da-532f4368a589")
+	)
+	(fp_line
+		(start 0.91 0.46)
+		(end -0.91 0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d0244a29-a3d4-485a-955f-69aa078f25e9")
+	)
+	(fp_line
+		(start -0.91 0.46)
+		(end -0.91 -0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f91967c9-c79a-424f-a097-819bf92d0a53")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1ba7736-1887-4b3a-ba07-5a58d42985d3")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "abcab105-c044-4fd9-bce6-8af64975d9f1")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "183566c6-758d-4ced-8d02-78af01c55dfa")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f19ac1d-8947-4ebd-9b8b-214cfe6f222e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "411e90a1-4b1e-45ce-8e05-6b3b7c167620")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.425 0)
+		(size 0.35 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(solder_paste_margin_ratio 0)
+		(pintype "passive")
+		(uuid "a8f16977-cb5c-4279-baf8-0a61c8f3dd14")
+	)
+	(pad "2" smd roundrect
+		(at 0.425 0)
+		(size 0.35 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(solder_paste_margin_ratio 0)
+		(pintype "passive")
+		(uuid "1dac12bb-c014-48eb-8344-a211489c6bea")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

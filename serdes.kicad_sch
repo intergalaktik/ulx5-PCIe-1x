@@ -15793,7 +15793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitors_impedance:C_0402_SI_M"
 			(at 148.59 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -15817,6 +15817,17 @@
 		)
 		(property "Description" ""
 			(at 148.59 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 148.59 36.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17292,11 +17303,11 @@
 		(at 87.63 87.63 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "8bb7b12e-3c91-450b-94db-78f5034b6fd5")
 		(property "Reference" "R108"
 			(at 87.63 87.63 90)
@@ -17946,10 +17957,10 @@
 		(at 121.92 30.48 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "cffebd0b-4005-41d9-94a1-05a7ee6b9bfe")
 		(property "Reference" "R110"
@@ -18103,11 +18114,11 @@
 		(at 60.96 30.48 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "e97f6fc6-3900-4f10-8a71-373d41191e96")
 		(property "Reference" "R107"
 			(at 60.96 27.94 90)
@@ -18367,7 +18378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitors_impedance:C_0402_SI_M"
 			(at 148.59 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -18391,6 +18402,17 @@
 		)
 		(property "Description" ""
 			(at 148.59 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 148.59 39.37 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
