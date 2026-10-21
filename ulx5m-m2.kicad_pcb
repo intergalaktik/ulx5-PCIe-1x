@@ -10707,7 +10707,7 @@
 				)
 			)
 		)
-		(property "Value" "2R"
+		(property "Value" "1R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10743,7 +10743,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22936"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57392,7 +57392,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "2R"
+		(property "Value" "1R"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -57431,7 +57431,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22936"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -60134,7 +60134,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "2R"
+		(property "Value" "1R"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -60173,7 +60173,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22936"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -71440,6 +71440,14 @@
 		(uuid "2b8e1842-0014-450d-994f-592524641367")
 	)
 	(segment
+		(start 50.08 131.12)
+		(end 49.55 131.65)
+		(width 0.13)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "2bd1b266-94aa-4c26-b4f5-675b7f4fc85c")
+	)
+	(segment
 		(start 65.59 115.44)
 		(end 65.990001 115.04)
 		(width 0.381)
@@ -71630,14 +71638,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "3f0af4fa-887b-4817-b452-6d67dc6a284e")
-	)
-	(segment
-		(start 49.55 132.255)
-		(end 49.55 132.93)
-		(width 0.13)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "41b9732c-b242-4299-bbb5-26e072b3fa5a")
 	)
 	(segment
 		(start 55.790002 116.24)
@@ -71888,6 +71888,14 @@
 		(uuid "5b297cbb-a66e-4e56-85c7-a82de854a54d")
 	)
 	(segment
+		(start 49.55 131.65)
+		(end 49.55 132.93)
+		(width 0.13)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "5d54b5e1-6a2e-42ae-80ea-a5d981607033")
+	)
+	(segment
 		(start 53.450289 131.239711)
 		(end 53.55 131.339422)
 		(width 0.13)
@@ -71990,6 +71998,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "66ece3f6-6739-4774-ba1c-43875002e58a")
+	)
+	(segment
+		(start 50.08 130.39)
+		(end 50.08 131.12)
+		(width 0.13)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "675de66d-8737-4687-9a3a-6fe9ba1855c3")
 	)
 	(segment
 		(start 63.79 108.24)
@@ -72110,14 +72126,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "73f227d7-68c1-4c5a-9360-affcd075972e")
-	)
-	(segment
-		(start 50.08 131.725)
-		(end 49.55 132.255)
-		(width 0.13)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "74f7fe08-b343-4e28-82a9-10703dd41cd7")
 	)
 	(segment
 		(start 61.86375 79.475)
@@ -72536,14 +72544,6 @@
 		(uuid "a66d6e90-b7cc-4192-96f8-affa370a5b5b")
 	)
 	(segment
-		(start 50.07 130.38)
-		(end 50.08 130.39)
-		(width 0.13)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "a77a9e29-85cb-47ee-9c3c-361bc2a6d464")
-	)
-	(segment
 		(start 60.59 118.639999)
 		(end 60.189999 119.040001)
 		(width 0.4064)
@@ -72864,14 +72864,6 @@
 		(uuid "c53271f2-53ca-46e1-b4f0-ade531f99a46")
 	)
 	(segment
-		(start 50.08 130.39)
-		(end 50.08 131.725)
-		(width 0.13)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "c5ed4318-8f34-4fdf-884b-6d7bf5a79770")
-	)
-	(segment
 		(start 68.522499 98.592499)
 		(end 68.74 98.81)
 		(width 0.23)
@@ -72982,6 +72974,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "ce088464-da31-42e9-bcbd-392e7aa1e705")
+	)
+	(segment
+		(start 50.07 130.38)
+		(end 50.08 130.39)
+		(width 0.13)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "cf1c4f4e-dbb8-4bf1-83d9-03db72a425b6")
 	)
 	(segment
 		(start 61.285 79.475)
@@ -117107,7 +117107,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30140)
+		(priority 30141)
 		(attr
 			(teardrop
 				(type padvia)
@@ -117152,7 +117152,7 @@
 		(net "/ethernet/LED2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30453)
+		(priority 30452)
 		(attr
 			(teardrop
 				(type padvia)
@@ -117197,7 +117197,7 @@
 		(net "unconnected-(U4F-IO_WB_B4-PadK4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30454)
+		(priority 30453)
 		(attr
 			(teardrop
 				(type padvia)
@@ -117235,45 +117235,6 @@
 				(xy 53.873637 114.414763) (xy 53.871378 114.410801) (xy 53.870737 114.408877) (xy 53.871192 114.400325)
 				(xy 53.871804 114.398984) (xy 53.874169 114.395578) (xy 53.945444 114.324303) (xy 53.949231 114.321772)
 				(xy 53.951113 114.320992) (xy 53.959666 114.320836)
-			)
-		)
-	)
-	(zone
-		(net "GND")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30238)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 50.145 130.776157) (xy 50.149634 130.707665) (xy 50.162069 130.656696) (xy 50.199787 130.583127)
-				(xy 50.235687 130.517716) (xy 50.266157 130.419018) (xy 50.08 130.375157) (xy 49.873843 130.419018)
-				(xy 49.890703 130.480666) (xy 49.911794 130.527435) (xy 49.950806 130.585846) (xy 49.995583 130.65909)
-				(xy 50.009725 130.708974) (xy 50.015 130.776157)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 50.08255 130.375757) (xy 50.253967 130.416145) (xy 50.261233 130.421378) (xy 50.262671 130.430216)
-				(xy 50.262462 130.430984) (xy 50.236038 130.516577) (xy 50.235116 130.518755) (xy 50.199781 130.583137)
-				(xy 50.16207 130.656692) (xy 50.149634 130.707662) (xy 50.149633 130.707666) (xy 50.145738 130.765247)
-				(xy 50.141761 130.77327) (xy 50.134065 130.776157) (xy 50.025817 130.776157) (xy 50.017544 130.77273)
-				(xy 50.014153 130.765373) (xy 50.014143 130.765247) (xy 50.009725 130.708974) (xy 49.995583 130.65909)
-				(xy 49.995583 130.659089) (xy 49.950811 130.585854) (xy 49.948996 130.583137) (xy 49.912332 130.52824)
-				(xy 49.911396 130.526552) (xy 49.89108 130.481502) (xy 49.89046 130.479779) (xy 49.877111 130.430968)
-				(xy 49.878234 130.422085) (xy 49.88531 130.416597) (xy 49.885941 130.416444) (xy 50.077438 130.375702)
 			)
 		)
 	)
@@ -117408,7 +117369,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30513)
+		(priority 30512)
 		(attr
 			(teardrop
 				(type padvia)
@@ -117539,7 +117500,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30150)
+		(priority 30151)
 		(attr
 			(teardrop
 				(type padvia)
@@ -117674,7 +117635,7 @@
 		(net "/config/JTAG_CFG_MD2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30622)
+		(priority 30621)
 		(attr
 			(teardrop
 				(type padvia)
@@ -117713,7 +117674,7 @@
 		(net "Net-(U8-1Y)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30153)
+		(priority 30154)
 		(attr
 			(teardrop
 				(type padvia)
@@ -117751,7 +117712,7 @@
 		(net "/serdes/SER_CK_P")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30439)
+		(priority 30438)
 		(attr
 			(teardrop
 				(type padvia)
@@ -117795,7 +117756,7 @@
 		(net "unconnected-(U4E-IO_SA_A6-PadR9)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30363)
+		(priority 30362)
 		(attr
 			(teardrop
 				(type padvia)
@@ -117840,7 +117801,7 @@
 		(net "/config/SPI_CSN")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30385)
+		(priority 30384)
 		(attr
 			(teardrop
 				(type padvia)
@@ -117882,46 +117843,10 @@
 		)
 	)
 	(zone
-		(net "GND")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30154)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 49.802781 131.910295) (xy 49.735577 131.969216) (xy 49.646706 132.028392) (xy 49.577489 132.06044)
-				(xy 49.506198 132.078212) (xy 49.477512 132.08) (xy 49.375707 132.429293) (xy 49.725 132.327488)
-				(xy 49.742678 132.232772) (xy 49.799707 132.120002) (xy 49.894705 132.002219)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 49.810528 131.918042) (xy 49.88727 131.994784) (xy 49.890697 132.003057) (xy 49.888104 132.010402)
-				(xy 49.799708 132.119998) (xy 49.799706 132.120001) (xy 49.742678 132.232772) (xy 49.742676 132.232776)
-				(xy 49.72632 132.320415) (xy 49.721434 132.327919) (xy 49.718093 132.329501) (xy 49.396181 132.423325)
-				(xy 49.387279 132.42235) (xy 49.381674 132.415366) (xy 49.381674 132.40882) (xy 49.475212 132.087888)
-				(xy 49.480816 132.080907) (xy 49.485714 132.079488) (xy 49.506198 132.078212) (xy 49.577489 132.06044)
-				(xy 49.646706 132.028392) (xy 49.735577 131.969216) (xy 49.794542 131.917517) (xy 49.803022 131.91464)
-			)
-		)
-	)
-	(zone
 		(net "/config/JTAG_CFG_MD0")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30349)
+		(priority 30348)
 		(attr
 			(teardrop
 				(type padvia)
@@ -117965,7 +117890,7 @@
 		(net "/config/JTAG_POR")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30278)
+		(priority 30277)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118008,7 +117933,7 @@
 		(net "VDD_CLK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30127)
+		(priority 30128)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118050,7 +117975,7 @@
 		(net "/config/SPI_SCK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30329)
+		(priority 30328)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118095,7 +118020,7 @@
 		(net "/lvds/CLK_25MHz")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30466)
+		(priority 30465)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118134,7 +118059,7 @@
 		(net "/config/SPI_SCK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30128)
+		(priority 30129)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118173,7 +118098,7 @@
 		(net "/ethernet/USB25_P")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30288)
+		(priority 30287)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118481,7 +118406,7 @@
 		(net "SDRAM_nWE")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30455)
+		(priority 30454)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118526,7 +118451,7 @@
 		(net "/ethernet/USB25_N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30440)
+		(priority 30439)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118613,7 +118538,7 @@
 		(net "/config/JTAG_TDI")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30441)
+		(priority 30440)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118657,7 +118582,7 @@
 		(net "/config/SPI_IO3")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30273)
+		(priority 30272)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118703,7 +118628,7 @@
 		(net "SDRAM_A2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30311)
+		(priority 30310)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118746,7 +118671,7 @@
 		(net "SDRAM_D2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30283)
+		(priority 30282)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118789,7 +118714,7 @@
 		(net "unconnected-(U4E-IO_SA_B7-PadT10)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30303)
+		(priority 30302)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118872,7 +118797,7 @@
 		(net "unconnected-(U4D-IO_EA_B5-PadJ15)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30386)
+		(priority 30385)
 		(attr
 			(teardrop
 				(type padvia)
@@ -118917,7 +118842,7 @@
 		(net "/ethernet/USB25_N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30387)
+		(priority 30386)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119050,7 +118975,7 @@
 		(net "VDD_CLK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30105)
+		(priority 30106)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119169,7 +119094,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30508)
+		(priority 30506)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119213,7 +119138,7 @@
 		(net "/ethernet/USB25_N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30330)
+		(priority 30329)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119258,7 +119183,7 @@
 		(net "/config/JTAG_TCK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30346)
+		(priority 30345)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119303,7 +119228,7 @@
 		(net "SDRAM_nWE")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30420)
+		(priority 30419)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119574,7 +119499,7 @@
 		(net "SDRAM_BA1")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30347)
+		(priority 30346)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119659,7 +119584,7 @@
 		(net "SDRAM_D12")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30456)
+		(priority 30455)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119704,7 +119629,7 @@
 		(net "unconnected-(U4E-IO_SA_B6-PadT9)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30468)
+		(priority 30467)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119751,7 +119676,7 @@
 		(net "/config/JTAG_CFG_MD2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30512)
+		(priority 30511)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119797,7 +119722,7 @@
 		(net "SDRAM_CLK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30371)
+		(priority 30370)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119843,7 +119768,7 @@
 		(net "unconnected-(U4F-IO_WC_A4-PadE3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30352)
+		(priority 30351)
 		(attr
 			(teardrop
 				(type padvia)
@@ -119888,7 +119813,7 @@
 		(net "SDRAM_D9")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30399)
+		(priority 30398)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120102,7 +120027,7 @@
 		(net "/lvds/+1V8_SB")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30489)
+		(priority 30488)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120149,7 +120074,7 @@
 		(net "SDRAM_D6")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30388)
+		(priority 30387)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120194,7 +120119,7 @@
 		(net "/serdes/SER_CK_N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30328)
+		(priority 30327)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120239,7 +120164,7 @@
 		(net "SDRAM_CLK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30457)
+		(priority 30456)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120367,7 +120292,7 @@
 		(net "SDRAM_DQM0")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30279)
+		(priority 30278)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120622,7 +120547,7 @@
 		(net "Net-(R7-Pad1)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30151)
+		(priority 30152)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120830,7 +120755,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30634)
+		(priority 30267)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120845,25 +120770,29 @@
 		)
 		(polygon
 			(pts
-				(xy 62.125 121.036158) (xy 62.120374 121.05315) (xy 62.107996 121.061293) (xy 62.052905 121.057814)
-				(xy 62.008163 121.053557) (xy 61.995501 121.060753) (xy 61.993842 121.079019) (xy 62.19 121.239001)
-				(xy 61.993842 121.079019) (xy 62.004443 121.108036) (xy 62.022265 121.1302) (xy 62.077644 121.15591)
-				(xy 62.155084 121.151071) (xy 62.193833 121.134453) (xy 62.225915 121.108925) (xy 62.245434 121.08005)
-				(xy 62.254611 121.045392) (xy 62.255 121.036158)
+				(xy 62.254999 121.436157) (xy 62.259642 121.370362) (xy 62.272149 121.320996) (xy 62.314481 121.244621)
+				(xy 62.353823 121.179112) (xy 62.386156 121.079019) (xy 62.189999 121.035158) (xy 61.993842 121.079019)
+				(xy 62.011124 121.142958) (xy 62.032262 121.191135) (xy 62.065517 121.244622) (xy 62.107062 121.31887)
+				(xy 62.120132 121.368964) (xy 62.125 121.436158)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 62.250128 121.039585) (xy 62.253555 121.047858) (xy 62.253165 121.050853) (xy 62.245941 121.078134)
-				(xy 62.244324 121.081691) (xy 62.226919 121.107438) (xy 62.224511 121.110041) (xy 62.195064 121.133473)
-				(xy 62.19239 121.135071) (xy 62.156942 121.150273) (xy 62.153061 121.151197) (xy 62.087374 121.155301)
-				(xy 62.087373 121.155301) (xy 62.086655 121.155345) (xy 62.080607 121.155724) (xy 62.07495 121.154659)
-				(xy 62.024743 121.13135) (xy 62.020552 121.12807) (xy 62.005652 121.10954) (xy 62.003781 121.106226)
-				(xy 61.99474 121.081479) (xy 61.994079 121.076407) (xy 61.994947 121.066842) (xy 61.999108 121.058915)
-				(xy 62.000807 121.057737) (xy 62.004955 121.05538) (xy 62.011837 121.053906) (xy 62.052905 121.057814)
-				(xy 62.107996 121.061293) (xy 62.120374 121.05315) (xy 62.122651 121.044784) (xy 62.12813 121.037702)
-				(xy 62.13394 121.036158) (xy 62.241855 121.036158)
+				(xy 62.193809 121.03601) (xy 62.362488 121.073726) (xy 62.371358 121.07571) (xy 62.375536 121.077559)
+				(xy 62.376994 121.078585) (xy 62.381787 121.08614) (xy 62.382014 121.08744) (xy 62.381622 121.093049)
+				(xy 62.354441 121.177197) (xy 62.353956 121.178447) (xy 62.353404 121.17966) (xy 62.352785 121.180838)
+				(xy 62.314475 121.244627) (xy 62.272151 121.320988) (xy 62.27215 121.320992) (xy 62.259992 121.368984)
+				(xy 62.259642 121.370364) (xy 62.255929 121.422959) (xy 62.254725 121.427363) (xy 62.253822 121.429171)
+				(xy 62.247457 121.4349) (xy 62.246084 121.435414) (xy 62.241982 121.436157) (xy 62.138209 121.436157)
+				(xy 62.133733 121.435267) (xy 62.131858 121.43449) (xy 62.125695 121.428545) (xy 62.125087 121.427214)
+				(xy 62.12406 121.423203) (xy 62.121964 121.394263) (xy 62.120133 121.368972) (xy 62.120132 121.368964)
+				(xy 62.113881 121.345006) (xy 62.107062 121.318866) (xy 62.065573 121.244723) (xy 62.065523 121.244633)
+				(xy 62.065517 121.244622) (xy 62.03292 121.192194) (xy 62.032505 121.19147) (xy 62.032115 121.190729)
+				(xy 62.031755 121.189981) (xy 62.026426 121.177835) (xy 62.01165 121.144157) (xy 62.011335 121.143359)
+				(xy 62.011039 121.142521) (xy 62.010784 121.141699) (xy 61.997639 121.093066) (xy 61.99733 121.088518)
+				(xy 61.997559 121.086746) (xy 62.002014 121.078985) (xy 62.003242 121.078038) (xy 62.007823 121.075891)
+				(xy 62.186189 121.03601) (xy 62.188742 121.035728) (xy 62.191256 121.035728)
 			)
 		)
 	)
@@ -120916,7 +120845,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30267)
+		(priority 30633)
 		(attr
 			(teardrop
 				(type padvia)
@@ -120931,29 +120860,25 @@
 		)
 		(polygon
 			(pts
-				(xy 62.254999 121.436157) (xy 62.259642 121.370362) (xy 62.272149 121.320996) (xy 62.314481 121.244621)
-				(xy 62.353823 121.179112) (xy 62.386156 121.079019) (xy 62.189999 121.035158) (xy 61.993842 121.079019)
-				(xy 62.011124 121.142958) (xy 62.032262 121.191135) (xy 62.065517 121.244622) (xy 62.107062 121.31887)
-				(xy 62.120132 121.368964) (xy 62.125 121.436158)
+				(xy 62.125 121.036158) (xy 62.120374 121.05315) (xy 62.107996 121.061293) (xy 62.052905 121.057814)
+				(xy 62.008163 121.053557) (xy 61.995501 121.060753) (xy 61.993842 121.079019) (xy 62.19 121.239001)
+				(xy 61.993842 121.079019) (xy 62.004443 121.108036) (xy 62.022265 121.1302) (xy 62.077644 121.15591)
+				(xy 62.155084 121.151071) (xy 62.193833 121.134453) (xy 62.225915 121.108925) (xy 62.245434 121.08005)
+				(xy 62.254611 121.045392) (xy 62.255 121.036158)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 62.193809 121.03601) (xy 62.362488 121.073726) (xy 62.371358 121.07571) (xy 62.375536 121.077559)
-				(xy 62.376994 121.078585) (xy 62.381787 121.08614) (xy 62.382014 121.08744) (xy 62.381622 121.093049)
-				(xy 62.354441 121.177197) (xy 62.353956 121.178447) (xy 62.353404 121.17966) (xy 62.352785 121.180838)
-				(xy 62.314475 121.244627) (xy 62.272151 121.320988) (xy 62.27215 121.320992) (xy 62.259992 121.368984)
-				(xy 62.259642 121.370364) (xy 62.255929 121.422959) (xy 62.254725 121.427363) (xy 62.253822 121.429171)
-				(xy 62.247457 121.4349) (xy 62.246084 121.435414) (xy 62.241982 121.436157) (xy 62.138209 121.436157)
-				(xy 62.133733 121.435267) (xy 62.131858 121.43449) (xy 62.125695 121.428545) (xy 62.125087 121.427214)
-				(xy 62.12406 121.423203) (xy 62.121964 121.394263) (xy 62.120133 121.368972) (xy 62.120132 121.368964)
-				(xy 62.113881 121.345006) (xy 62.107062 121.318866) (xy 62.065573 121.244723) (xy 62.065523 121.244633)
-				(xy 62.065517 121.244622) (xy 62.03292 121.192194) (xy 62.032505 121.19147) (xy 62.032115 121.190729)
-				(xy 62.031755 121.189981) (xy 62.026426 121.177835) (xy 62.01165 121.144157) (xy 62.011335 121.143359)
-				(xy 62.011039 121.142521) (xy 62.010784 121.141699) (xy 61.997639 121.093066) (xy 61.99733 121.088518)
-				(xy 61.997559 121.086746) (xy 62.002014 121.078985) (xy 62.003242 121.078038) (xy 62.007823 121.075891)
-				(xy 62.186189 121.03601) (xy 62.188742 121.035728) (xy 62.191256 121.035728)
+				(xy 62.250128 121.039585) (xy 62.253555 121.047858) (xy 62.253165 121.050853) (xy 62.245941 121.078134)
+				(xy 62.244324 121.081691) (xy 62.226919 121.107438) (xy 62.224511 121.110041) (xy 62.195064 121.133473)
+				(xy 62.19239 121.135071) (xy 62.156942 121.150273) (xy 62.153061 121.151197) (xy 62.087374 121.155301)
+				(xy 62.087373 121.155301) (xy 62.086655 121.155345) (xy 62.080607 121.155724) (xy 62.07495 121.154659)
+				(xy 62.024743 121.13135) (xy 62.020552 121.12807) (xy 62.005652 121.10954) (xy 62.003781 121.106226)
+				(xy 61.99474 121.081479) (xy 61.994079 121.076407) (xy 61.994947 121.066842) (xy 61.999108 121.058915)
+				(xy 62.000807 121.057737) (xy 62.004955 121.05538) (xy 62.011837 121.053906) (xy 62.052905 121.057814)
+				(xy 62.107996 121.061293) (xy 62.120374 121.05315) (xy 62.122651 121.044784) (xy 62.12813 121.037702)
+				(xy 62.13394 121.036158) (xy 62.241855 121.036158)
 			)
 		)
 	)
@@ -120999,10 +120924,51 @@
 		)
 	)
 	(zone
+		(net "GND")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30070)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 49.485 131.905) (xy 49.479143 131.959184) (xy 49.458145 132.021628) (xy 49.434748 132.054673)
+				(xy 49.401958 132.075652) (xy 49.375 132.08) (xy 49.55 132.931) (xy 49.725 132.08) (xy 49.673975 132.062451)
+				(xy 49.637499 132.012575) (xy 49.616463 131.930603) (xy 49.615 131.905)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 49.6061 131.905891) (xy 49.607925 131.906647) (xy 49.614126 131.912676) (xy 49.61475 131.91407)
+				(xy 49.615752 131.918182) (xy 49.616443 131.930265) (xy 49.616457 131.930774) (xy 49.616669 131.931409)
+				(xy 49.63262 131.993565) (xy 49.637499 132.012575) (xy 49.673975 132.062451) (xy 49.713073 132.075897)
+				(xy 49.717018 132.078196) (xy 49.718676 132.079662) (xy 49.722533 132.086955) (xy 49.722684 132.088146)
+				(xy 49.722537 132.091975) (xy 49.561928 132.872991) (xy 49.560154 132.877197) (xy 49.559448 132.878239)
+				(xy 49.551971 132.883166) (xy 49.543386 132.881486) (xy 49.543366 132.881473) (xy 49.538297 132.874091)
+				(xy 49.377927 132.094238) (xy 49.377899 132.089678) (xy 49.378236 132.087923) (xy 49.383164 132.080449)
+				(xy 49.384444 132.079582) (xy 49.389142 132.077718) (xy 49.401958 132.075652) (xy 49.434748 132.054673)
+				(xy 49.458145 132.021628) (xy 49.479143 131.959184) (xy 49.483621 131.917751) (xy 49.484984 131.913405)
+				(xy 49.486019 131.911512) (xy 49.492394 131.906095) (xy 49.493624 131.905662) (xy 49.497504 131.905)
+				(xy 49.601622 131.905)
+			)
+		)
+	)
+	(zone
 		(net "SDRAM_A2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30336)
+		(priority 30335)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121128,7 +121094,7 @@
 		(net "+3V3")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30136)
+		(priority 30137)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121167,7 +121133,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30107)
+		(priority 30108)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121207,126 +121173,10 @@
 		)
 	)
 	(zone
-		(net "GND")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30621)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 50.015 131.186157) (xy 49.998148 131.229699) (xy 49.939952 131.268821) (xy 49.899558 131.29551)
-				(xy 49.89595 131.311819) (xy 49.91 131.332829) (xy 50.08 131.387157) (xy 50.25 131.19) (xy 50.24542 131.176851)
-				(xy 50.23336 131.174655) (xy 50.18748 131.19267) (xy 50.157796 131.201779) (xy 50.148471 131.198254)
-				(xy 50.145 131.186157)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 50.23871 131.175629) (xy 50.246235 131.180483) (xy 50.247663 131.183291) (xy 50.247779 131.183624)
-				(xy 50.247264 131.192564) (xy 50.245591 131.195113) (xy 50.085053 131.381296) (xy 50.077055 131.385324)
-				(xy 50.07263 131.384801) (xy 49.913892 131.334072) (xy 49.907728 131.329431) (xy 49.898727 131.315971)
-				(xy 49.896977 131.307189) (xy 49.897029 131.306941) (xy 49.898535 131.300133) (xy 49.903506 131.292901)
-				(xy 49.939952 131.268821) (xy 49.998148 131.229699) (xy 50.012106 131.193633) (xy 50.018287 131.187156)
-				(xy 50.023017 131.186157) (xy 50.136185 131.186157) (xy 50.144458 131.189584) (xy 50.147431 131.19463)
-				(xy 50.148471 131.198254) (xy 50.14847 131.198254) (xy 50.151995 131.199586) (xy 50.157796 131.201779)
-				(xy 50.187458 131.192677) (xy 50.18747 131.192673) (xy 50.187469 131.192673) (xy 50.18748 131.19267)
-				(xy 50.230263 131.17587) (xy 50.236633 131.175251)
-			)
-		)
-	)
-	(zone
-		(net "GND")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30270)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 49.999897 130.791548) (xy 49.992834 130.856136) (xy 49.978539 130.904705) (xy 49.931866 130.981326)
-				(xy 49.888531 131.047626) (xy 49.853843 131.150982) (xy 50.049824 131.194702) (xy 50.246157 131.150982)
-				(xy 50.20767 131.036612) (xy 50.180806 130.989936) (xy 50.142772 130.914196) (xy 50.131976 130.863821)
-				(xy 50.129805 130.79642)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 50.1189 130.796011) (xy 50.127039 130.799746) (xy 50.130156 130.807326) (xy 50.131728 130.856137)
-				(xy 50.131976 130.863819) (xy 50.131976 130.863826) (xy 50.140738 130.904705) (xy 50.142772 130.914196)
-				(xy 50.180806 130.989936) (xy 50.180812 130.989946) (xy 50.207089 131.035603) (xy 50.208038 131.037707)
-				(xy 50.242009 131.138656) (xy 50.2414 131.14759) (xy 50.234652 131.153477) (xy 50.233463 131.153808)
-				(xy 50.052369 131.194135) (xy 50.047279 131.194134) (xy 49.86652 131.15381) (xy 49.859191 131.148664)
-				(xy 49.857648 131.139844) (xy 49.857971 131.138681) (xy 49.888055 131.049042) (xy 49.889348 131.046375)
-				(xy 49.931866 130.981326) (xy 49.978539 130.904705) (xy 49.992834 130.856136) (xy 49.998713 130.802373)
-				(xy 50.003018 130.794525) (xy 50.01078 130.791956)
-			)
-		)
-	)
-	(zone
-		(net "GND")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30507)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 50.137094 131.582204) (xy 50.137955 131.514351) (xy 50.147743 131.463654) (xy 50.183924 131.387587)
-				(xy 50.2174 131.32373) (xy 50.246157 131.229018) (xy 50.049745 131.185472) (xy 49.883706 131.301114)
-				(xy 49.929999 131.367287) (xy 49.985291 131.458371) (xy 49.999496 131.512204) (xy 50.007299 131.589482)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 50.054738 131.186579) (xy 50.233823 131.226283) (xy 50.241159 131.23142) (xy 50.242714 131.240238)
-				(xy 50.242486 131.241105) (xy 50.21772 131.322674) (xy 50.216887 131.324707) (xy 50.183935 131.387563)
-				(xy 50.147743 131.463654) (xy 50.137955 131.514348) (xy 50.137232 131.571282) (xy 50.1337 131.579511)
-				(xy 50.126188 131.582815) (xy 50.01847 131.588855) (xy 50.010018 131.585896) (xy 50.006174 131.578349)
-				(xy 49.999496 131.512204) (xy 49.985291 131.458371) (xy 49.98529 131.45837) (xy 49.98529 131.458368)
-				(xy 49.930007 131.367298) (xy 49.900211 131.324707) (xy 49.890425 131.310719) (xy 49.888492 131.301978)
-				(xy 49.893305 131.294428) (xy 50.045535 131.188403) (xy 50.054282 131.186488)
-			)
-		)
-	)
-	(zone
 		(net "SDRAM_D2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30389)
+		(priority 30388)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121371,7 +121221,7 @@
 		(net "/serdes/SER_CK_N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30486)
+		(priority 30485)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121453,7 +121303,7 @@
 		(net "VDD_PLL")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30315)
+		(priority 30314)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121497,7 +121347,7 @@
 		(net "/ethernet/LED0")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30458)
+		(priority 30457)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121542,7 +121392,7 @@
 		(net "/ethernet/LED0")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30372)
+		(priority 30371)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121767,7 +121617,7 @@
 		(net "SDRAM_nRAS")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30400)
+		(priority 30399)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121811,7 +121661,7 @@
 		(net "/ethernet/ALED4")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30111)
+		(priority 30112)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121856,7 +121706,7 @@
 		(net "SDRAM_D15")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30297)
+		(priority 30296)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121900,7 +121750,7 @@
 		(net "SDRAM_D11")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30401)
+		(priority 30400)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121944,7 +121794,7 @@
 		(net "SDRAM_A11")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30469)
+		(priority 30468)
 		(attr
 			(teardrop
 				(type padvia)
@@ -121991,7 +121841,7 @@
 		(net "unconnected-(U4F-IO_WC_A2-PadF3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30373)
+		(priority 30372)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122037,7 +121887,7 @@
 		(net "/ethernet/USB_CC2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30121)
+		(priority 30122)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122120,7 +121970,7 @@
 		(net "VDD_CLK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30442)
+		(priority 30441)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122202,7 +122052,7 @@
 		(net "unconnected-(U4F-IO_WB_B0-PadN2)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30360)
+		(priority 30359)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122287,7 +122137,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30147)
+		(priority 30148)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122327,7 +122177,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30070)
+		(priority 30071)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122536,7 +122386,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30102)
+		(priority 30103)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122654,7 +122504,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30120)
+		(priority 30121)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122697,7 +122547,7 @@
 		(net "/PEDET")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30402)
+		(priority 30401)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122785,7 +122635,7 @@
 		(net "/ethernet/USB25_P")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30331)
+		(priority 30330)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122872,7 +122722,7 @@
 		(net "unconnected-(U4F-IO_WC_A5-PadD1)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30334)
+		(priority 30333)
 		(attr
 			(teardrop
 				(type padvia)
@@ -122961,7 +122811,7 @@
 		(net "SDRAM_A3")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30280)
+		(priority 30279)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123005,7 +122855,7 @@
 		(net "/LED1#")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30467)
+		(priority 30466)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123049,7 +122899,7 @@
 		(net "unconnected-(U4E-IO_SA_A7-PadR10)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30484)
+		(priority 30483)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123089,7 +122939,7 @@
 		(net "SDRAM_CLK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30470)
+		(priority 30469)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123313,7 +123163,7 @@
 		(net "SDRAM_D0")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30390)
+		(priority 30389)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123402,7 +123252,7 @@
 		(net "Net-(U7-1Y)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30149)
+		(priority 30150)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123451,7 +123301,7 @@
 		(net "unconnected-(U4D-IO_EA_A6-PadH16)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30430)
+		(priority 30429)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123577,7 +123427,7 @@
 		(net "unconnected-(U4D-IO_EA_A8-PadG16)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30431)
+		(priority 30430)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123621,7 +123471,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30092)
+		(priority 30093)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123670,7 +123520,7 @@
 		(net "VDD_CORE")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30104)
+		(priority 30105)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123708,7 +123558,7 @@
 		(net "RST_N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30624)
+		(priority 30623)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123881,7 +123731,7 @@
 		(net "/lvds/DDMI0_HS_TX0_N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30304)
+		(priority 30303)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123925,7 +123775,7 @@
 		(net "/PERST#")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30391)
+		(priority 30390)
 		(attr
 			(teardrop
 				(type padvia)
@@ -123970,7 +123820,7 @@
 		(net "RST_N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30432)
+		(priority 30431)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124104,7 +123954,7 @@
 		(net "SDRAM_D2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30366)
+		(priority 30365)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124151,7 +124001,7 @@
 		(net "/ethernet/SD_DAT2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30289)
+		(priority 30288)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124196,7 +124046,7 @@
 		(net "/M.2 M Key/PET3N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30071)
+		(priority 30072)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124237,7 +124087,7 @@
 		(net "/config/SPI_IO0")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30499)
+		(priority 30498)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124327,7 +124177,7 @@
 		(net "unconnected-(U4F-IO_WC_B2-PadF4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30325)
+		(priority 30324)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124418,7 +124268,7 @@
 		(net "unconnected-(U4E-IO_SA_A5-PadU8)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30465)
+		(priority 30464)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124501,7 +124351,7 @@
 		(net "SDRAM_D15")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30403)
+		(priority 30402)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124583,7 +124433,7 @@
 		(net "Net-(U3-SW-Pad15)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30491)
+		(priority 30490)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124625,7 +124475,7 @@
 		(net "unconnected-(U4F-IO_WB_B1-PadM4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30337)
+		(priority 30336)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124669,7 +124519,7 @@
 		(net "unconnected-(U4E-IO_SB_B0-PadU18)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30498)
+		(priority 30497)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124797,7 +124647,7 @@
 		(net "Net-(BTN1-Pad1)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30500)
+		(priority 30499)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124837,7 +124687,7 @@
 		(net "unconnected-(U4F-IO_WC_A6-PadD3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30459)
+		(priority 30458)
 		(attr
 			(teardrop
 				(type padvia)
@@ -124882,7 +124732,7 @@
 		(net "/ethernet/USB25_N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30404)
+		(priority 30403)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125044,7 +124894,7 @@
 		(net "unconnected-(U4F-IO_WC_B3-PadE2)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30460)
+		(priority 30459)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125302,7 +125152,7 @@
 		(net "/config/SPI_IO0")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30446)
+		(priority 30445)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125385,7 +125235,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30335)
+		(priority 30334)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125429,7 +125279,7 @@
 		(net "unconnected-(U4F-IO_WB_A2-PadL3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30338)
+		(priority 30337)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125473,7 +125323,7 @@
 		(net "Net-(D6-A)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30137)
+		(priority 30138)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125517,7 +125367,7 @@
 		(net "SDRAM_D7")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30447)
+		(priority 30446)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125561,7 +125411,7 @@
 		(net "unconnected-(U4F-IO_WC_B4-PadE4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30421)
+		(priority 30420)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125608,7 +125458,7 @@
 		(net "Net-(D8-A)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30495)
+		(priority 30494)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125689,7 +125539,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30108)
+		(priority 30109)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125732,7 +125582,7 @@
 		(net "/ethernet/ALED1")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30122)
+		(priority 30123)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125772,7 +125622,7 @@
 		(net "SDRAM_BA0")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30392)
+		(priority 30391)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125817,7 +125667,7 @@
 		(net "/M.2 M Key/PET1P")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30072)
+		(priority 30073)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125903,7 +125753,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30073)
+		(priority 30074)
 		(attr
 			(teardrop
 				(type padvia)
@@ -125989,7 +125839,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30119)
+		(priority 30120)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126153,7 +126003,7 @@
 		(net "SDRAM_A5")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30627)
+		(priority 30626)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126193,7 +126043,7 @@
 		(net "unconnected-(U4F-IO_WB_B2-PadL4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30298)
+		(priority 30297)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126237,7 +126087,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30142)
+		(priority 30143)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126279,7 +126129,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30509)
+		(priority 30507)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126316,7 +126166,7 @@
 		(net "/serdes/SER_PORT_ADJ")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30502)
+		(priority 30501)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126359,7 +126209,7 @@
 		(net "SDRAM_A0")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30374)
+		(priority 30373)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126486,7 +126336,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30109)
+		(priority 30110)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126564,7 +126414,7 @@
 		(net "SDRAM_D7")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30471)
+		(priority 30470)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126611,7 +126461,7 @@
 		(net "SDRAM_D1")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30284)
+		(priority 30283)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126694,7 +126544,7 @@
 		(net "unconnected-(U4F-IO_WB_A2-PadL3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30422)
+		(priority 30421)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126778,7 +126628,7 @@
 		(net "/SUSCLK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30480)
+		(priority 30479)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126818,7 +126668,7 @@
 		(net "VDD_CLK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30094)
+		(priority 30095)
 		(attr
 			(teardrop
 				(type padvia)
@@ -126982,7 +126832,7 @@
 		(net "/ethernet/SD_DAT3")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30361)
+		(priority 30360)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127026,7 +126876,7 @@
 		(net "SDRAM_A0")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30405)
+		(priority 30404)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127070,7 +126920,7 @@
 		(net "unconnected-(U4D-IO_EA_A5-PadJ16)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30319)
+		(priority 30318)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127157,7 +127007,7 @@
 		(net "unconnected-(U4F-IO_WC_B5-PadD2)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30285)
+		(priority 30284)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127241,7 +127091,7 @@
 		(net "SDRAM_D15")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30375)
+		(priority 30374)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127287,7 +127137,7 @@
 		(net "/config/JTAG_CFG_MD3")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30393)
+		(priority 30392)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127332,7 +127182,7 @@
 		(net "SDRAM_D4")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30472)
+		(priority 30471)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127372,7 +127222,7 @@
 		(net "unconnected-(U4F-IO_WC_B2-PadF4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30353)
+		(priority 30352)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127417,7 +127267,7 @@
 		(net "Net-(D2-A)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30101)
+		(priority 30102)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127458,7 +127308,7 @@
 		(net "/ethernet/SD_DAT2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30291)
+		(priority 30290)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127503,7 +127353,7 @@
 		(net "unconnected-(U4F-IO_WC_B1-PadG4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30354)
+		(priority 30353)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127548,7 +127398,7 @@
 		(net "SDRAM_D5")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30510)
+		(priority 30508)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127670,7 +127520,7 @@
 		(net "SDRAM_VCC")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30494)
+		(priority 30493)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127712,7 +127562,7 @@
 		(net "/PERST#")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30443)
+		(priority 30442)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127756,7 +127606,7 @@
 		(net "SDRAM_D6")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30281)
+		(priority 30280)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127841,7 +127691,7 @@
 		(net "/ethernet/LED7")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30394)
+		(priority 30393)
 		(attr
 			(teardrop
 				(type padvia)
@@ -127886,7 +127736,7 @@
 		(net "/config/JTAG_TDO")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30096)
+		(priority 30097)
 		(attr
 			(teardrop
 				(type padvia)
@@ -128097,7 +127947,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30074)
+		(priority 30075)
 		(attr
 			(teardrop
 				(type padvia)
@@ -128309,7 +128159,7 @@
 		(net "unconnected-(U4F-IO_WB_B6-PadJ4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30355)
+		(priority 30354)
 		(attr
 			(teardrop
 				(type padvia)
@@ -128392,7 +128242,7 @@
 		(net "SDRAM_nCS")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30376)
+		(priority 30375)
 		(attr
 			(teardrop
 				(type padvia)
@@ -128438,7 +128288,7 @@
 		(net "SDRAM_D9")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30351)
+		(priority 30350)
 		(attr
 			(teardrop
 				(type padvia)
@@ -128525,7 +128375,7 @@
 		(net "unconnected-(U4D-IO_EA_B5-PadJ15)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30332)
+		(priority 30331)
 		(attr
 			(teardrop
 				(type padvia)
@@ -128570,7 +128420,7 @@
 		(net "/ethernet/LED1")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30089)
+		(priority 30090)
 		(attr
 			(teardrop
 				(type padvia)
@@ -128655,7 +128505,7 @@
 		(net "SDRAM_A1")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30299)
+		(priority 30298)
 		(attr
 			(teardrop
 				(type padvia)
@@ -128699,7 +128549,7 @@
 		(net "unconnected-(U4F-IO_WB_B4-PadK4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30377)
+		(priority 30376)
 		(attr
 			(teardrop
 				(type padvia)
@@ -128745,7 +128595,7 @@
 		(net "Net-(U3-OUT_S)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30131)
+		(priority 30132)
 		(attr
 			(teardrop
 				(type padvia)
@@ -128871,7 +128721,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30075)
+		(priority 30076)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129174,7 +129024,7 @@
 		(net "unconnected-(U4F-IO_WC_B1-PadG4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30423)
+		(priority 30422)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129259,7 +129109,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30076)
+		(priority 30077)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129296,7 +129146,7 @@
 		(net "unconnected-(U4F-IO_WB_B1-PadM4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30473)
+		(priority 30472)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129381,7 +129231,7 @@
 		(net "SDRAM_VCC")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30629)
+		(priority 30628)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129460,7 +129310,7 @@
 		(net "Net-(U3-OUT_S)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30134)
+		(priority 30135)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129499,7 +129349,7 @@
 		(net "SDRAM_D15")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30339)
+		(priority 30338)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129543,7 +129393,7 @@
 		(net "unconnected-(U4E-IO_SA_B6-PadT9)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30300)
+		(priority 30299)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129587,7 +129437,7 @@
 		(net "VDD_SER")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30103)
+		(priority 30104)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129630,7 +129480,7 @@
 		(net "/ethernet/SD_CLK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30433)
+		(priority 30432)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129717,7 +129567,7 @@
 		(net "/M.2 M Key/PET2P")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30077)
+		(priority 30078)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129800,7 +129650,7 @@
 		(net "unconnected-(U4D-IO_EA_A6-PadH16)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30406)
+		(priority 30405)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129931,7 +129781,7 @@
 		(net "/config/JTAG_CFG_MD1")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30378)
+		(priority 30377)
 		(attr
 			(teardrop
 				(type padvia)
@@ -129977,7 +129827,7 @@
 		(net "SDRAM_D8")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30407)
+		(priority 30406)
 		(attr
 			(teardrop
 				(type padvia)
@@ -130021,7 +129871,7 @@
 		(net "/ethernet/USB25_P")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30395)
+		(priority 30394)
 		(attr
 			(teardrop
 				(type padvia)
@@ -130194,7 +130044,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30123)
+		(priority 30124)
 		(attr
 			(teardrop
 				(type padvia)
@@ -130242,7 +130092,7 @@
 		(net "SDRAM_nCAS")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30379)
+		(priority 30378)
 		(attr
 			(teardrop
 				(type padvia)
@@ -130374,7 +130224,7 @@
 		(net "/ethernet/ALED6")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30115)
+		(priority 30116)
 		(attr
 			(teardrop
 				(type padvia)
@@ -130414,7 +130264,7 @@
 		(net "/config/SPI_IO2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30448)
+		(priority 30447)
 		(attr
 			(teardrop
 				(type padvia)
@@ -130458,7 +130308,7 @@
 		(net "+5V")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30130)
+		(priority 30131)
 		(attr
 			(teardrop
 				(type padvia)
@@ -130501,7 +130351,7 @@
 		(net "/config/SPI_CSN")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30444)
+		(priority 30443)
 		(attr
 			(teardrop
 				(type padvia)
@@ -130588,7 +130438,7 @@
 		(net "Net-(U3-OUT_S)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30138)
+		(priority 30139)
 		(attr
 			(teardrop
 				(type padvia)
@@ -130627,7 +130477,7 @@
 		(net "SDRAM_A7")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30286)
+		(priority 30285)
 		(attr
 			(teardrop
 				(type padvia)
@@ -130670,7 +130520,7 @@
 		(net "unconnected-(U4F-IO_WC_B0-PadG2)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30449)
+		(priority 30448)
 		(attr
 			(teardrop
 				(type padvia)
@@ -130757,7 +130607,7 @@
 		(net "/ethernet/USB_OTG_ID")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30408)
+		(priority 30407)
 		(attr
 			(teardrop
 				(type padvia)
@@ -130801,7 +130651,7 @@
 		(net "/M.2 M Key/PET3P")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30078)
+		(priority 30079)
 		(attr
 			(teardrop
 				(type padvia)
@@ -130925,7 +130775,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30146)
+		(priority 30147)
 		(attr
 			(teardrop
 				(type padvia)
@@ -131013,7 +130863,7 @@
 		(net "SDRAM_A8")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30272)
+		(priority 30271)
 		(attr
 			(teardrop
 				(type padvia)
@@ -131195,7 +131045,7 @@
 		(net "RST_N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30409)
+		(priority 30408)
 		(attr
 			(teardrop
 				(type padvia)
@@ -131239,7 +131089,7 @@
 		(net "Net-(R8-Pad1)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30090)
+		(priority 30091)
 		(attr
 			(teardrop
 				(type padvia)
@@ -131280,10 +131130,47 @@
 		)
 	)
 	(zone
+		(net "GND")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30513)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 50.015 130.793843) (xy 50.012555 130.875736) (xy 50.000438 130.932864) (xy 49.971479 130.98172)
+				(xy 49.918505 131.038796) (xy 49.91 131.047171) (xy 50.08 131.194843) (xy 50.25 131.19) (xy 50.24542 131.122083)
+				(xy 50.23336 131.06974) (xy 50.191909 130.981701) (xy 50.159357 130.906712) (xy 50.145 130.793843)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 50.142967 130.79727) (xy 50.1463 130.804067) (xy 50.159355 130.906704) (xy 50.159359 130.906718)
+				(xy 50.191908 130.9817) (xy 50.232825 131.068604) (xy 50.233641 131.070961) (xy 50.24521 131.121175)
+				(xy 50.245482 131.123015) (xy 50.249181 131.177864) (xy 50.246319 131.186349) (xy 50.238295 131.190324)
+				(xy 50.237841 131.190346) (xy 50.084561 131.194713) (xy 50.076556 131.191851) (xy 49.919532 131.055451)
+				(xy 49.915535 131.047439) (xy 49.918373 131.038946) (xy 49.918631 131.03866) (xy 49.971476 130.981723)
+				(xy 49.971475 130.981723) (xy 49.971479 130.98172) (xy 50.000438 130.932864) (xy 50.012555 130.875736)
+				(xy 50.014661 130.805193) (xy 50.018333 130.797027) (xy 50.026356 130.793843) (xy 50.134694 130.793843)
+			)
+		)
+	)
+	(zone
 		(net "/config/JTAG_TDI")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30097)
+		(priority 30098)
 		(attr
 			(teardrop
 				(type padvia)
@@ -131326,7 +131213,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30079)
+		(priority 30080)
 		(attr
 			(teardrop
 				(type padvia)
@@ -131363,7 +131250,7 @@
 		(net "unconnected-(U4F-IO_WB_B3-PadL2)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30410)
+		(priority 30409)
 		(attr
 			(teardrop
 				(type padvia)
@@ -131407,7 +131294,7 @@
 		(net "unconnected-(U4E-IO_SA_A4-PadR8)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30474)
+		(priority 30473)
 		(attr
 			(teardrop
 				(type padvia)
@@ -131492,7 +131379,7 @@
 		(net "SDRAM_D4")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30450)
+		(priority 30449)
 		(attr
 			(teardrop
 				(type padvia)
@@ -131619,7 +131506,7 @@
 		(net "/config/JTAG_TMS")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30095)
+		(priority 30096)
 		(attr
 			(teardrop
 				(type padvia)
@@ -131661,7 +131548,7 @@
 		(net "unconnected-(U4D-IO_EA_A8-PadG16)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30411)
+		(priority 30410)
 		(attr
 			(teardrop
 				(type padvia)
@@ -131788,7 +131675,7 @@
 		(net "Net-(U9-SCLK)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30126)
+		(priority 30127)
 		(attr
 			(teardrop
 				(type padvia)
@@ -131829,7 +131716,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30080)
+		(priority 30081)
 		(attr
 			(teardrop
 				(type padvia)
@@ -131870,7 +131757,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30081)
+		(priority 30082)
 		(attr
 			(teardrop
 				(type padvia)
@@ -132082,7 +131969,7 @@
 		(net "unconnected-(U4E-IO_SA_A4-PadR8)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30301)
+		(priority 30300)
 		(attr
 			(teardrop
 				(type padvia)
@@ -132126,7 +132013,7 @@
 		(net "/ethernet/USB25_N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30396)
+		(priority 30395)
 		(attr
 			(teardrop
 				(type padvia)
@@ -132171,7 +132058,7 @@
 		(net "/ethernet/SD_DAT1")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30412)
+		(priority 30411)
 		(attr
 			(teardrop
 				(type padvia)
@@ -132308,7 +132195,7 @@
 		(net "/ethernet/BTN1")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30293)
+		(priority 30292)
 		(attr
 			(teardrop
 				(type padvia)
@@ -132353,7 +132240,7 @@
 		(net "/PEDET")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30088)
+		(priority 30089)
 		(attr
 			(teardrop
 				(type padvia)
@@ -132529,7 +132416,7 @@
 		(net "SDRAM_A7")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30367)
+		(priority 30366)
 		(attr
 			(teardrop
 				(type padvia)
@@ -132621,7 +132508,7 @@
 		(net "unconnected-(U4F-IO_WB_B2-PadL4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30380)
+		(priority 30379)
 		(attr
 			(teardrop
 				(type padvia)
@@ -132667,7 +132554,7 @@
 		(net "/lvds/DDMI0_HS_TX1_N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30322)
+		(priority 30321)
 		(attr
 			(teardrop
 				(type padvia)
@@ -132712,7 +132599,7 @@
 		(net "SDRAM_VCC")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30631)
+		(priority 30630)
 		(attr
 			(teardrop
 				(type padvia)
@@ -132790,7 +132677,7 @@
 		(net "Net-(J101-Pin_4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30099)
+		(priority 30100)
 		(attr
 			(teardrop
 				(type padvia)
@@ -132835,7 +132722,7 @@
 		(net "/lvds/+1V8_SB")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30287)
+		(priority 30286)
 		(attr
 			(teardrop
 				(type padvia)
@@ -132879,7 +132766,7 @@
 		(net "SDRAM_BA1")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30294)
+		(priority 30293)
 		(attr
 			(teardrop
 				(type padvia)
@@ -132924,7 +132811,7 @@
 		(net "unconnected-(U4D-IO_EA_B8-PadG15)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30413)
+		(priority 30412)
 		(attr
 			(teardrop
 				(type padvia)
@@ -132968,7 +132855,7 @@
 		(net "VDD_CLK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30635)
+		(priority 30634)
 		(attr
 			(teardrop
 				(type padvia)
@@ -133091,7 +132978,7 @@
 		(net "unconnected-(U4E-IO_SA_B7-PadT10)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30481)
+		(priority 30480)
 		(attr
 			(teardrop
 				(type padvia)
@@ -133137,7 +133024,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30118)
+		(priority 30119)
 		(attr
 			(teardrop
 				(type padvia)
@@ -133228,7 +133115,7 @@
 		(net "/ethernet/LED7")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30414)
+		(priority 30413)
 		(attr
 			(teardrop
 				(type padvia)
@@ -133272,7 +133159,7 @@
 		(net "Net-(D8-A)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30141)
+		(priority 30142)
 		(attr
 			(teardrop
 				(type padvia)
@@ -133357,7 +133244,7 @@
 		(net "/M.2 M Key/PET1N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30082)
+		(priority 30083)
 		(attr
 			(teardrop
 				(type padvia)
@@ -133480,7 +133367,7 @@
 		(net "SDRAM_D4")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30397)
+		(priority 30396)
 		(attr
 			(teardrop
 				(type padvia)
@@ -133525,7 +133412,7 @@
 		(net "unconnected-(U4D-IO_EA_B6-PadH15)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30323)
+		(priority 30322)
 		(attr
 			(teardrop
 				(type padvia)
@@ -133570,7 +133457,7 @@
 		(net "Net-(U3-SW-Pad15)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30132)
+		(priority 30133)
 		(attr
 			(teardrop
 				(type padvia)
@@ -133734,7 +133621,7 @@
 		(net "unconnected-(U4E-IO_SB_A0-PadU17)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30424)
+		(priority 30423)
 		(attr
 			(teardrop
 				(type padvia)
@@ -133781,7 +133668,7 @@
 		(net "SDRAM_nCAS")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30461)
+		(priority 30460)
 		(attr
 			(teardrop
 				(type padvia)
@@ -133826,7 +133713,7 @@
 		(net "/ethernet/SD_CLK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30312)
+		(priority 30311)
 		(attr
 			(teardrop
 				(type padvia)
@@ -133917,7 +133804,7 @@
 		(net "/M.2 M Key/PET2N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30083)
+		(priority 30084)
 		(attr
 			(teardrop
 				(type padvia)
@@ -133958,7 +133845,7 @@
 		(net "Net-(U3-SW-Pad15)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30228)
+		(priority 30594)
 		(attr
 			(teardrop
 				(type padvia)
@@ -133973,22 +133860,22 @@
 		)
 		(polygon
 			(pts
-				(xy 65.17942 104.160748) (xy 65.192696 104.084425) (xy 65.213194 104.03412) (xy 65.251191 103.980968)
-				(xy 65.307081 103.905003) (xy 65.120434 103.775986) (xy 64.899323 103.823895) (xy 64.936165 103.936025)
-				(xy 64.948268 103.960379) (xy 64.97718 104.031706) (xy 64.98058 104.139251)
+				(xy 65.18 103.784323) (xy 65.19664 103.733562) (xy 65.245575 103.68698) (xy 65.282508 103.650255)
+				(xy 65.283263 103.630694) (xy 65.265 103.607953) (xy 65.08 103.558323) (xy 64.895 103.78) (xy 64.899533 103.791299)
+				(xy 64.911266 103.79215) (xy 64.957559 103.773878) (xy 64.973577 103.772138) (xy 64.98 103.784323)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 65.124288 103.778658) (xy 65.124607 103.778871) (xy 65.297168 103.898151) (xy 65.302025 103.905674)
-				(xy 65.300139 103.914428) (xy 65.299939 103.914709) (xy 65.25118 103.980981) (xy 65.213192 104.034121)
-				(xy 65.192696 104.084423) (xy 65.192696 104.084425) (xy 65.181299 104.149942) (xy 65.176505 104.157506)
-				(xy 65.168514 104.159568) (xy 65.144352 104.156956) (xy 64.990694 104.140344) (xy 64.982838 104.136048)
-				(xy 64.980258 104.129083) (xy 64.97718 104.031706) (xy 64.977179 104.031703) (xy 64.977179 104.031702)
-				(xy 64.948267 103.960376) (xy 64.936537 103.936773) (xy 64.9359 103.935218) (xy 64.923721 103.898151)
-				(xy 64.903376 103.83623) (xy 64.904049 103.827303) (xy 64.910839 103.821465) (xy 64.912005 103.821146)
-				(xy 65.115476 103.77706)
+				(xy 65.087219 103.560259) (xy 65.261306 103.606962) (xy 65.267393 103.610933) (xy 65.280526 103.627286)
+				(xy 65.283094 103.635062) (xy 65.282685 103.645655) (xy 65.279244 103.653501) (xy 65.245664 103.686891)
+				(xy 65.245481 103.687068) (xy 65.196642 103.733559) (xy 65.19664 103.733562) (xy 65.183995 103.772138)
+				(xy 65.182641 103.776268) (xy 65.176807 103.783062) (xy 65.171523 103.784323) (xy 64.987059 103.784323)
+				(xy 64.978786 103.780896) (xy 64.976709 103.778079) (xy 64.973578 103.772139) (xy 64.973577 103.772138)
+				(xy 64.973576 103.772138) (xy 64.957557 103.773878) (xy 64.914563 103.790847) (xy 64.90561 103.790697)
+				(xy 64.899385 103.784259) (xy 64.899535 103.775306) (xy 64.90128 103.772474) (xy 65.075211 103.564061)
+				(xy 65.08314 103.559907)
 			)
 		)
 	)
@@ -134033,7 +133920,7 @@
 		(net "Net-(U3-SW-Pad15)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30594)
+		(priority 30228)
 		(attr
 			(teardrop
 				(type padvia)
@@ -134048,22 +133935,22 @@
 		)
 		(polygon
 			(pts
-				(xy 65.18 103.784323) (xy 65.19664 103.733562) (xy 65.245575 103.68698) (xy 65.282508 103.650255)
-				(xy 65.283263 103.630694) (xy 65.265 103.607953) (xy 65.08 103.558323) (xy 64.895 103.78) (xy 64.899533 103.791299)
-				(xy 64.911266 103.79215) (xy 64.957559 103.773878) (xy 64.973577 103.772138) (xy 64.98 103.784323)
+				(xy 65.17942 104.160748) (xy 65.192696 104.084425) (xy 65.213194 104.03412) (xy 65.251191 103.980968)
+				(xy 65.307081 103.905003) (xy 65.120434 103.775986) (xy 64.899323 103.823895) (xy 64.936165 103.936025)
+				(xy 64.948268 103.960379) (xy 64.97718 104.031706) (xy 64.98058 104.139251)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 65.087219 103.560259) (xy 65.261306 103.606962) (xy 65.267393 103.610933) (xy 65.280526 103.627286)
-				(xy 65.283094 103.635062) (xy 65.282685 103.645655) (xy 65.279244 103.653501) (xy 65.245664 103.686891)
-				(xy 65.245481 103.687068) (xy 65.196642 103.733559) (xy 65.19664 103.733562) (xy 65.183995 103.772138)
-				(xy 65.182641 103.776268) (xy 65.176807 103.783062) (xy 65.171523 103.784323) (xy 64.987059 103.784323)
-				(xy 64.978786 103.780896) (xy 64.976709 103.778079) (xy 64.973578 103.772139) (xy 64.973577 103.772138)
-				(xy 64.973576 103.772138) (xy 64.957557 103.773878) (xy 64.914563 103.790847) (xy 64.90561 103.790697)
-				(xy 64.899385 103.784259) (xy 64.899535 103.775306) (xy 64.90128 103.772474) (xy 65.075211 103.564061)
-				(xy 65.08314 103.559907)
+				(xy 65.124288 103.778658) (xy 65.124607 103.778871) (xy 65.297168 103.898151) (xy 65.302025 103.905674)
+				(xy 65.300139 103.914428) (xy 65.299939 103.914709) (xy 65.25118 103.980981) (xy 65.213192 104.034121)
+				(xy 65.192696 104.084423) (xy 65.192696 104.084425) (xy 65.181299 104.149942) (xy 65.176505 104.157506)
+				(xy 65.168514 104.159568) (xy 65.144352 104.156956) (xy 64.990694 104.140344) (xy 64.982838 104.136048)
+				(xy 64.980258 104.129083) (xy 64.97718 104.031706) (xy 64.977179 104.031703) (xy 64.977179 104.031702)
+				(xy 64.948267 103.960376) (xy 64.936537 103.936773) (xy 64.9359 103.935218) (xy 64.923721 103.898151)
+				(xy 64.903376 103.83623) (xy 64.904049 103.827303) (xy 64.910839 103.821465) (xy 64.912005 103.821146)
+				(xy 65.115476 103.77706)
 			)
 		)
 	)
@@ -134071,7 +133958,7 @@
 		(net "VDD_CLK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30505)
+		(priority 30504)
 		(attr
 			(teardrop
 				(type padvia)
@@ -134115,7 +134002,7 @@
 		(net "/config/JTAG_TMS")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30271)
+		(priority 30270)
 		(attr
 			(teardrop
 				(type padvia)
@@ -134197,7 +134084,7 @@
 		(net "unconnected-(U4F-IO_WB_A8-PadH3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30425)
+		(priority 30424)
 		(attr
 			(teardrop
 				(type padvia)
@@ -134336,7 +134223,7 @@
 		(net "SDRAM_D5")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30308)
+		(priority 30307)
 		(attr
 			(teardrop
 				(type padvia)
@@ -134381,7 +134268,7 @@
 		(net "unconnected-(U4D-IO_EA_B8-PadG15)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30434)
+		(priority 30433)
 		(attr
 			(teardrop
 				(type padvia)
@@ -134553,7 +134440,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30626)
+		(priority 30625)
 		(attr
 			(teardrop
 				(type padvia)
@@ -134590,7 +134477,7 @@
 		(net "SDRAM_A10")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30475)
+		(priority 30474)
 		(attr
 			(teardrop
 				(type padvia)
@@ -134637,7 +134524,7 @@
 		(net "unconnected-(U4F-IO_WC_B4-PadE4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30340)
+		(priority 30339)
 		(attr
 			(teardrop
 				(type padvia)
@@ -134674,6 +134561,45 @@
 				(xy 53.873635 110.414762) (xy 53.871378 110.410805) (xy 53.870736 110.408878) (xy 53.871193 110.400323)
 				(xy 53.871802 110.398989) (xy 53.874169 110.395578) (xy 53.945443 110.324304) (xy 53.949232 110.321772)
 				(xy 53.951114 110.320992) (xy 53.959671 110.320839)
+			)
+		)
+	)
+	(zone
+		(net "GND")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30238)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 50.145 130.776157) (xy 50.149634 130.707665) (xy 50.162069 130.656696) (xy 50.199787 130.583127)
+				(xy 50.235687 130.517716) (xy 50.266157 130.419018) (xy 50.08 130.375157) (xy 49.873843 130.419018)
+				(xy 49.890703 130.480666) (xy 49.911794 130.527435) (xy 49.950806 130.585846) (xy 49.995583 130.65909)
+				(xy 50.009725 130.708974) (xy 50.015 130.776157)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 50.08255 130.375757) (xy 50.253967 130.416145) (xy 50.261233 130.421378) (xy 50.262671 130.430216)
+				(xy 50.262462 130.430984) (xy 50.236038 130.516577) (xy 50.235116 130.518755) (xy 50.199781 130.583137)
+				(xy 50.16207 130.656692) (xy 50.149634 130.707662) (xy 50.149633 130.707666) (xy 50.145738 130.765247)
+				(xy 50.141761 130.77327) (xy 50.134065 130.776157) (xy 50.025817 130.776157) (xy 50.017544 130.77273)
+				(xy 50.014153 130.765373) (xy 50.014143 130.765247) (xy 50.009725 130.708974) (xy 49.995583 130.65909)
+				(xy 49.995583 130.659089) (xy 49.950811 130.585854) (xy 49.948996 130.583137) (xy 49.912332 130.52824)
+				(xy 49.911396 130.526552) (xy 49.89108 130.481502) (xy 49.89046 130.479779) (xy 49.877111 130.430968)
+				(xy 49.878234 130.422085) (xy 49.88531 130.416597) (xy 49.885941 130.416444) (xy 50.077438 130.375702)
 			)
 		)
 	)
@@ -134722,7 +134648,7 @@
 		(net "Net-(J101-Pin_1)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30625)
+		(priority 30624)
 		(attr
 			(teardrop
 				(type padvia)
@@ -134796,7 +134722,7 @@
 		(net "Net-(U8-1Y)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30623)
+		(priority 30622)
 		(attr
 			(teardrop
 				(type padvia)
@@ -134837,7 +134763,7 @@
 		(net "unconnected-(U4E-IO_SB_A1-PadR17)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30370)
+		(priority 30369)
 		(attr
 			(teardrop
 				(type padvia)
@@ -134883,7 +134809,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30084)
+		(priority 30085)
 		(attr
 			(teardrop
 				(type padvia)
@@ -134966,7 +134892,7 @@
 		(net "unconnected-(U4E-IO_SB_A3-PadM17)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30362)
+		(priority 30361)
 		(attr
 			(teardrop
 				(type padvia)
@@ -135010,7 +134936,7 @@
 		(net "SDRAM_A5")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30381)
+		(priority 30380)
 		(attr
 			(teardrop
 				(type padvia)
@@ -135056,7 +134982,7 @@
 		(net "/ethernet/USB25_P")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30290)
+		(priority 30289)
 		(attr
 			(teardrop
 				(type padvia)
@@ -135101,7 +135027,7 @@
 		(net "/lvds/+1V8_SB")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30313)
+		(priority 30312)
 		(attr
 			(teardrop
 				(type padvia)
@@ -135364,7 +135290,7 @@
 		(net "Net-(J101-Pin_2)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30125)
+		(priority 30126)
 		(attr
 			(teardrop
 				(type padvia)
@@ -135408,7 +135334,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30316)
+		(priority 30315)
 		(attr
 			(teardrop
 				(type padvia)
@@ -135452,7 +135378,7 @@
 		(net "unconnected-(U4F-IO_WB_A7-PadH1)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30632)
+		(priority 30631)
 		(attr
 			(teardrop
 				(type padvia)
@@ -135489,7 +135415,7 @@
 		(net "/ethernet/ALED2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30117)
+		(priority 30118)
 		(attr
 			(teardrop
 				(type padvia)
@@ -135528,7 +135454,7 @@
 		(net "/ethernet/USB25_P")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30309)
+		(priority 30308)
 		(attr
 			(teardrop
 				(type padvia)
@@ -135573,7 +135499,7 @@
 		(net "/serdes/SER_CK_P")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30503)
+		(priority 30502)
 		(attr
 			(teardrop
 				(type padvia)
@@ -135737,7 +135663,7 @@
 		(net "Net-(U8-1Y)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30630)
+		(priority 30629)
 		(attr
 			(teardrop
 				(type padvia)
@@ -135777,7 +135703,7 @@
 		(net "RST_N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30274)
+		(priority 30273)
 		(attr
 			(teardrop
 				(type padvia)
@@ -135866,7 +135792,7 @@
 		(net "SDRAM_BA1")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30415)
+		(priority 30414)
 		(attr
 			(teardrop
 				(type padvia)
@@ -135910,7 +135836,7 @@
 		(net "unconnected-(U4F-IO_WC_A6-PadD3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30382)
+		(priority 30381)
 		(attr
 			(teardrop
 				(type padvia)
@@ -136081,7 +136007,7 @@
 		(net "/config/SPI_SCK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30350)
+		(priority 30349)
 		(attr
 			(teardrop
 				(type padvia)
@@ -136297,7 +136223,7 @@
 		(net "unconnected-(U4F-IO_WB_B8-PadH4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30305)
+		(priority 30304)
 		(attr
 			(teardrop
 				(type padvia)
@@ -136341,7 +136267,7 @@
 		(net "unconnected-(U4D-IO_EA_B6-PadH15)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30320)
+		(priority 30319)
 		(attr
 			(teardrop
 				(type padvia)
@@ -136385,7 +136311,7 @@
 		(net "SDRAM_D12")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30383)
+		(priority 30382)
 		(attr
 			(teardrop
 				(type padvia)
@@ -136479,7 +136405,7 @@
 		(net "Net-(U3-OUT_S)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30133)
+		(priority 30134)
 		(attr
 			(teardrop
 				(type padvia)
@@ -136562,7 +136488,7 @@
 		(net "Net-(J101-Pin_3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30511)
+		(priority 30510)
 		(attr
 			(teardrop
 				(type padvia)
@@ -136601,7 +136527,7 @@
 		(net "Net-(J101-Pin_4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30501)
+		(priority 30500)
 		(attr
 			(teardrop
 				(type padvia)
@@ -136729,7 +136655,7 @@
 		(net "Net-(D7-K)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30628)
+		(priority 30627)
 		(attr
 			(teardrop
 				(type padvia)
@@ -136763,7 +136689,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30106)
+		(priority 30107)
 		(attr
 			(teardrop
 				(type padvia)
@@ -136845,7 +136771,7 @@
 		(net "/SUSCLK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30306)
+		(priority 30305)
 		(attr
 			(teardrop
 				(type padvia)
@@ -136889,7 +136815,7 @@
 		(net "SDRAM_A8")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30488)
+		(priority 30487)
 		(attr
 			(teardrop
 				(type padvia)
@@ -136928,7 +136854,7 @@
 		(net "SDRAM_A12")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30416)
+		(priority 30415)
 		(attr
 			(teardrop
 				(type padvia)
@@ -137016,7 +136942,7 @@
 		(net "unconnected-(U4F-IO_WB_A4-PadK3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30341)
+		(priority 30340)
 		(attr
 			(teardrop
 				(type padvia)
@@ -137106,7 +137032,7 @@
 		(net "Net-(D1-A)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30098)
+		(priority 30099)
 		(attr
 			(teardrop
 				(type padvia)
@@ -137150,7 +137076,7 @@
 		(net "unconnected-(U4E-IO_SA_A7-PadR10)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30342)
+		(priority 30341)
 		(attr
 			(teardrop
 				(type padvia)
@@ -137194,7 +137120,7 @@
 		(net "unconnected-(U4D-IO_EA_A7-PadG18)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30496)
+		(priority 30495)
 		(attr
 			(teardrop
 				(type padvia)
@@ -137317,7 +137243,7 @@
 		(net "/PEWAKE#")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30445)
+		(priority 30444)
 		(attr
 			(teardrop
 				(type padvia)
@@ -137400,7 +137326,7 @@
 		(net "Net-(U4A-SER_RTERM)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30318)
+		(priority 30317)
 		(attr
 			(teardrop
 				(type padvia)
@@ -137483,7 +137409,7 @@
 		(net "unconnected-(U4F-IO_WB_A8-PadH3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30343)
+		(priority 30342)
 		(attr
 			(teardrop
 				(type padvia)
@@ -137527,7 +137453,7 @@
 		(net "/config/SPI_IO2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30144)
+		(priority 30145)
 		(attr
 			(teardrop
 				(type padvia)
@@ -137706,7 +137632,7 @@
 		(net "/ethernet/LED1")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30344)
+		(priority 30343)
 		(attr
 			(teardrop
 				(type padvia)
@@ -137750,7 +137676,7 @@
 		(net "SDRAM_A0")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30462)
+		(priority 30461)
 		(attr
 			(teardrop
 				(type padvia)
@@ -137795,7 +137721,7 @@
 		(net "unconnected-(U4F-IO_WC_A1-PadG3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30364)
+		(priority 30363)
 		(attr
 			(teardrop
 				(type padvia)
@@ -137840,7 +137766,7 @@
 		(net "SDRAM_D1")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30368)
+		(priority 30367)
 		(attr
 			(teardrop
 				(type padvia)
@@ -137932,7 +137858,7 @@
 		(net "RST_N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30398)
+		(priority 30397)
 		(attr
 			(teardrop
 				(type padvia)
@@ -137977,7 +137903,7 @@
 		(net "/config/JTAG_CFG_MD0")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30333)
+		(priority 30332)
 		(attr
 			(teardrop
 				(type padvia)
@@ -138061,7 +137987,7 @@
 		(net "SDRAM_A9")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30485)
+		(priority 30484)
 		(attr
 			(teardrop
 				(type padvia)
@@ -138147,7 +138073,7 @@
 		(net "/ethernet/USB25_P")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30292)
+		(priority 30291)
 		(attr
 			(teardrop
 				(type padvia)
@@ -138237,7 +138163,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30085)
+		(priority 30086)
 		(attr
 			(teardrop
 				(type padvia)
@@ -138274,7 +138200,7 @@
 		(net "/lvds/DDMI0_HS_TX1_N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30310)
+		(priority 30309)
 		(attr
 			(teardrop
 				(type padvia)
@@ -138362,7 +138288,7 @@
 		(net "SDRAM_A5")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30314)
+		(priority 30313)
 		(attr
 			(teardrop
 				(type padvia)
@@ -138453,7 +138379,7 @@
 		(net "unconnected-(U4F-IO_WB_A6-PadJ3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30295)
+		(priority 30294)
 		(attr
 			(teardrop
 				(type padvia)
@@ -138543,7 +138469,7 @@
 		(net "unconnected-(U4F-IO_WB_A1-PadM3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30426)
+		(priority 30425)
 		(attr
 			(teardrop
 				(type padvia)
@@ -138716,7 +138642,7 @@
 		(net "Net-(U3-EN)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30152)
+		(priority 30153)
 		(attr
 			(teardrop
 				(type padvia)
@@ -138762,7 +138688,7 @@
 		(net "/ethernet/BTN2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30093)
+		(priority 30094)
 		(attr
 			(teardrop
 				(type padvia)
@@ -138979,7 +138905,7 @@
 		(net "SDRAM_A1")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30476)
+		(priority 30475)
 		(attr
 			(teardrop
 				(type padvia)
@@ -139026,7 +138952,7 @@
 		(net "/DEVSLP")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30477)
+		(priority 30476)
 		(attr
 			(teardrop
 				(type padvia)
@@ -139070,6 +138996,45 @@
 		)
 	)
 	(zone
+		(net "GND")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30509)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 49.795837 131.496087) (xy 49.891145 131.415485) (xy 49.934727 131.39888) (xy 49.98943 131.391871)
+				(xy 50.052863 131.38998) (xy 50.033424 131.166576) (xy 49.908579 131.048579) (xy 49.864096 131.099544)
+				(xy 49.835813 131.144916) (xy 49.806246 131.22637) (xy 49.776689 131.307806) (xy 49.748404 131.353187)
+				(xy 49.703913 131.404163)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 49.917083 131.056629) (xy 49.917426 131.056941) (xy 50.03019 131.16352) (xy 50.033809 131.171009)
+				(xy 50.051789 131.37764) (xy 50.049092 131.386179) (xy 50.041147 131.39031) (xy 50.040482 131.390349)
+				(xy 50.01491 131.391111) (xy 49.98943 131.391871) (xy 49.989424 131.391871) (xy 49.989421 131.391872)
+				(xy 49.934731 131.398879) (xy 49.934722 131.398881) (xy 49.891149 131.415482) (xy 49.891146 131.415484)
+				(xy 49.804054 131.489137) (xy 49.795524 131.491862) (xy 49.788226 131.488476) (xy 49.711643 131.411893)
+				(xy 49.708216 131.40362) (xy 49.711101 131.395927) (xy 49.714641 131.391871) (xy 49.748404 131.353187)
+				(xy 49.776689 131.307806) (xy 49.806246 131.22637) (xy 49.835394 131.146069) (xy 49.836463 131.143873)
+				(xy 49.863597 131.100344) (xy 49.864711 131.098839) (xy 49.900574 131.05775) (xy 49.908596 131.053771)
+			)
+		)
+	)
+	(zone
 		(net "/config/JTAG_CFG_MD3")
 		(layer "F.Cu")
 		(hatch none 0.1)
@@ -139109,7 +139074,7 @@
 		(net "SDRAM_A5")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30302)
+		(priority 30301)
 		(attr
 			(teardrop
 				(type padvia)
@@ -139233,7 +139198,7 @@
 		(net "/ethernet/USB_OTG_ID")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30435)
+		(priority 30434)
 		(attr
 			(teardrop
 				(type padvia)
@@ -139315,7 +139280,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30124)
+		(priority 30125)
 		(attr
 			(teardrop
 				(type padvia)
@@ -139442,7 +139407,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30116)
+		(priority 30117)
 		(attr
 			(teardrop
 				(type padvia)
@@ -139525,7 +139490,7 @@
 		(net "Net-(U4A-SER_RTERM)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30112)
+		(priority 30113)
 		(attr
 			(teardrop
 				(type padvia)
@@ -139659,7 +139624,7 @@
 		(net "/ethernet/ALED3")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30110)
+		(priority 30111)
 		(attr
 			(teardrop
 				(type padvia)
@@ -139704,7 +139669,7 @@
 		(net "unconnected-(U4F-IO_WC_A1-PadG3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30307)
+		(priority 30306)
 		(attr
 			(teardrop
 				(type padvia)
@@ -139795,7 +139760,7 @@
 		(net "unconnected-(U4F-IO_WB_B8-PadH4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30326)
+		(priority 30325)
 		(attr
 			(teardrop
 				(type padvia)
@@ -139928,7 +139893,7 @@
 		(net "unconnected-(U4D-IO_EA_A5-PadJ16)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30324)
+		(priority 30323)
 		(attr
 			(teardrop
 				(type padvia)
@@ -139973,7 +139938,7 @@
 		(net "unconnected-(U4F-IO_WB_A6-PadJ3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30348)
+		(priority 30347)
 		(attr
 			(teardrop
 				(type padvia)
@@ -140019,7 +139984,7 @@
 		(net "unconnected-(U4D-IO_EA_B3-PadK15)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30358)
+		(priority 30357)
 		(attr
 			(teardrop
 				(type padvia)
@@ -140064,7 +140029,7 @@
 		(net "SDRAM_D13")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30417)
+		(priority 30416)
 		(attr
 			(teardrop
 				(type padvia)
@@ -140108,7 +140073,7 @@
 		(net "SDRAM_D11")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30345)
+		(priority 30344)
 		(attr
 			(teardrop
 				(type padvia)
@@ -140152,7 +140117,7 @@
 		(net "unconnected-(U4E-IO_SA_B4-PadT8)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30276)
+		(priority 30275)
 		(attr
 			(teardrop
 				(type padvia)
@@ -140197,7 +140162,7 @@
 		(net "/lvds/DDMI0_HS_TX1_P")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30482)
+		(priority 30481)
 		(attr
 			(teardrop
 				(type padvia)
@@ -140293,7 +140258,7 @@
 		(net "+3V3")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30143)
+		(priority 30144)
 		(attr
 			(teardrop
 				(type padvia)
@@ -140331,7 +140296,7 @@
 		(net "/ethernet/BTN3")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30636)
+		(priority 30635)
 		(attr
 			(teardrop
 				(type padvia)
@@ -140366,7 +140331,7 @@
 		(net "unconnected-(U4E-IO_SA_B4-PadT8)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30365)
+		(priority 30364)
 		(attr
 			(teardrop
 				(type padvia)
@@ -140544,7 +140509,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30129)
+		(priority 30130)
 		(attr
 			(teardrop
 				(type padvia)
@@ -140588,7 +140553,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30086)
+		(priority 30087)
 		(attr
 			(teardrop
 				(type padvia)
@@ -140625,7 +140590,7 @@
 		(net "Net-(D6-A)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30497)
+		(priority 30496)
 		(attr
 			(teardrop
 				(type padvia)
@@ -140748,7 +140713,7 @@
 		(net "SDRAM_CKE")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30296)
+		(priority 30295)
 		(attr
 			(teardrop
 				(type padvia)
@@ -140793,7 +140758,7 @@
 		(net "unconnected-(U4F-IO_WB_B6-PadJ4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30427)
+		(priority 30426)
 		(attr
 			(teardrop
 				(type padvia)
@@ -140840,7 +140805,7 @@
 		(net "unconnected-(U4D-IO_EA_B4-PadJ17)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30436)
+		(priority 30435)
 		(attr
 			(teardrop
 				(type padvia)
@@ -140925,7 +140890,7 @@
 		(net "unconnected-(U4F-IO_WC_A2-PadF3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30463)
+		(priority 30462)
 		(attr
 			(teardrop
 				(type padvia)
@@ -141038,7 +141003,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30506)
+		(priority 30505)
 		(attr
 			(teardrop
 				(type padvia)
@@ -141081,7 +141046,7 @@
 		(net "/config/CFG_DONE")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30493)
+		(priority 30492)
 		(attr
 			(teardrop
 				(type padvia)
@@ -141248,7 +141213,7 @@
 		(net "/ethernet/LED2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30478)
+		(priority 30477)
 		(attr
 			(teardrop
 				(type padvia)
@@ -141385,7 +141350,7 @@
 		(net "/lvds/+1V8_SB")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30490)
+		(priority 30489)
 		(attr
 			(teardrop
 				(type padvia)
@@ -141430,7 +141395,7 @@
 		(net "SDRAM_D8")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30356)
+		(priority 30355)
 		(attr
 			(teardrop
 				(type padvia)
@@ -141598,7 +141563,7 @@
 		(net "SDRAM_A1")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30384)
+		(priority 30383)
 		(attr
 			(teardrop
 				(type padvia)
@@ -141718,7 +141683,7 @@
 		(net "SDRAM_A2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30428)
+		(priority 30427)
 		(attr
 			(teardrop
 				(type padvia)
@@ -141765,7 +141730,7 @@
 		(net "/config/JTAG_TCK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30113)
+		(priority 30114)
 		(attr
 			(teardrop
 				(type padvia)
@@ -141850,7 +141815,7 @@
 		(net "unconnected-(U4F-IO_WB_A1-PadM3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30357)
+		(priority 30356)
 		(attr
 			(teardrop
 				(type padvia)
@@ -142029,7 +141994,7 @@
 		(net "unconnected-(U4F-IO_WB_B7-PadH2)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30451)
+		(priority 30450)
 		(attr
 			(teardrop
 				(type padvia)
@@ -142113,7 +142078,7 @@
 		(net "SDRAM_nCS")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30464)
+		(priority 30463)
 		(attr
 			(teardrop
 				(type padvia)
@@ -142238,7 +142203,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30100)
+		(priority 30101)
 		(attr
 			(teardrop
 				(type padvia)
@@ -142367,7 +142332,7 @@
 		(net "Net-(U3-OUT_S)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30139)
+		(priority 30140)
 		(attr
 			(teardrop
 				(type padvia)
@@ -142446,7 +142411,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30492)
+		(priority 30491)
 		(attr
 			(teardrop
 				(type padvia)
@@ -142531,7 +142496,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30633)
+		(priority 30632)
 		(attr
 			(teardrop
 				(type padvia)
@@ -142607,7 +142572,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30087)
+		(priority 30088)
 		(attr
 			(teardrop
 				(type padvia)
@@ -142691,7 +142656,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30148)
+		(priority 30149)
 		(attr
 			(teardrop
 				(type padvia)
@@ -142729,7 +142694,7 @@
 		(net "SDRAM_D0")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30452)
+		(priority 30451)
 		(attr
 			(teardrop
 				(type padvia)
@@ -142814,7 +142779,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30504)
+		(priority 30503)
 		(attr
 			(teardrop
 				(type padvia)
@@ -142853,7 +142818,7 @@
 		(net "unconnected-(U4D-IO_EA_B3-PadK15)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30321)
+		(priority 30320)
 		(attr
 			(teardrop
 				(type padvia)
@@ -142935,7 +142900,7 @@
 		(net "/ethernet/ALED5")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30114)
+		(priority 30115)
 		(attr
 			(teardrop
 				(type padvia)
@@ -142979,7 +142944,7 @@
 		(net "/ethernet/FPD1-")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30487)
+		(priority 30486)
 		(attr
 			(teardrop
 				(type padvia)
@@ -143064,7 +143029,7 @@
 		(net "SDRAM_A7")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30479)
+		(priority 30478)
 		(attr
 			(teardrop
 				(type padvia)
@@ -143111,7 +143076,7 @@
 		(net "/ethernet/LED1")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30483)
+		(priority 30482)
 		(attr
 			(teardrop
 				(type padvia)
@@ -143236,7 +143201,7 @@
 		(net "/ethernet/USB25_N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30437)
+		(priority 30436)
 		(attr
 			(teardrop
 				(type padvia)
@@ -143319,7 +143284,7 @@
 		(net "unconnected-(U4E-IO_SA_A6-PadR9)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30277)
+		(priority 30276)
 		(attr
 			(teardrop
 				(type padvia)
@@ -143409,7 +143374,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30145)
+		(priority 30146)
 		(attr
 			(teardrop
 				(type padvia)
@@ -143448,7 +143413,7 @@
 		(net "/lvds/CLK_25MHz")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30359)
+		(priority 30358)
 		(attr
 			(teardrop
 				(type padvia)
@@ -143493,7 +143458,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30282)
+		(priority 30281)
 		(attr
 			(teardrop
 				(type padvia)
@@ -143616,7 +143581,7 @@
 		(net "/ethernet/SD_DAT1")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30438)
+		(priority 30437)
 		(attr
 			(teardrop
 				(type padvia)
@@ -143655,7 +143620,7 @@
 		(net "unconnected-(U4F-IO_WC_A4-PadE3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30429)
+		(priority 30428)
 		(attr
 			(teardrop
 				(type padvia)
@@ -143702,7 +143667,7 @@
 		(net "SDRAM_CKE")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30317)
+		(priority 30316)
 		(attr
 			(teardrop
 				(type padvia)
@@ -143877,7 +143842,7 @@
 		(net "SDRAM_CKE")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30369)
+		(priority 30368)
 		(attr
 			(teardrop
 				(type padvia)
@@ -143973,7 +143938,7 @@
 		(net "/lvds/DDMI0_HS_TX0_N")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30327)
+		(priority 30326)
 		(attr
 			(teardrop
 				(type padvia)
@@ -144020,7 +143985,7 @@
 		(net "VDD_SER")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30135)
+		(priority 30136)
 		(attr
 			(teardrop
 				(type padvia)
@@ -144143,7 +144108,7 @@
 		(net "VDD_CLK")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30091)
+		(priority 30092)
 		(attr
 			(teardrop
 				(type padvia)
@@ -144183,7 +144148,7 @@
 		(net "/config/JTAG_TMS")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30418)
+		(priority 30417)
 		(attr
 			(teardrop
 				(type padvia)
@@ -144227,7 +144192,7 @@
 		(net "SDRAM_A9")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30275)
+		(priority 30274)
 		(attr
 			(teardrop
 				(type padvia)
@@ -144274,7 +144239,7 @@
 		(net "unconnected-(U4F-IO_WB_B5-PadK2)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30419)
+		(priority 30418)
 		(attr
 			(teardrop
 				(type padvia)
@@ -145122,7 +145087,7 @@
 		(net "SDRAM_VCC")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30517)
+		(priority 30578)
 		(attr
 			(teardrop
 				(type padvia)
@@ -145137,23 +145102,25 @@
 		)
 		(polygon
 			(pts
-				(xy 52.980052 91.073225) (xy 52.97686 91.132758) (xy 52.962353 91.171901) (xy 52.937274 91.207524)
-				(xy 52.902919 91.254997) (xy 53.090167 91.385206) (xy 53.277081 91.254997) (xy 53.229533 91.194061)
-				(xy 53.19442 91.144958) (xy 53.179948 91.066777)
+				(xy 52.98 91.375677) (xy 52.975408 91.391842) (xy 52.963261 91.399749) (xy 52.919386 91.400135)
+				(xy 52.88136 91.39995) (xy 52.870633 91.407415) (xy 52.869323 91.423895) (xy 53.08 91.603778) (xy 52.869323 91.423895)
+				(xy 52.880537 91.455885) (xy 52.899117 91.481077) (xy 52.956605 91.513145) (xy 53.038501 91.516169)
+				(xy 53.083061 91.503543) (xy 53.122955 91.48155) (xy 53.152417 91.453673) (xy 53.172326 91.418864)
+				(xy 53.18 91.375677)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 53.172072 91.067921) (xy 53.174219 91.06873) (xy 53.180351 91.074056) (xy 53.180876 91.075016)
-				(xy 53.182118 91.078502) (xy 53.19442 91.144959) (xy 53.229525 91.194052) (xy 53.26805 91.243423)
-				(xy 53.270102 91.2475) (xy 53.270577 91.249216) (xy 53.269482 91.258103) (xy 53.268748 91.259399)
-				(xy 53.265255 91.263233) (xy 53.098759 91.379219) (xy 53.094574 91.381048) (xy 53.091684 91.381681)
-				(xy 53.084707 91.381063) (xy 53.084649 91.381039) (xy 53.082443 91.379834) (xy 52.914615 91.26313)
-				(xy 52.911451 91.259847) (xy 52.910487 91.258345) (xy 52.908902 91.249537) (xy 52.90926 91.247896)
-				(xy 52.911209 91.24354) (xy 52.937274 91.207524) (xy 52.962353 91.171901) (xy 52.97686 91.132758)
-				(xy 52.979352 91.086268) (xy 52.980478 91.081851) (xy 52.981377 91.079973) (xy 52.987569 91.074168)
-				(xy 52.988865 91.073648) (xy 52.992846 91.072811) (xy 53.167575 91.067175)
+				(xy 53.17431 91.379104) (xy 53.177737 91.387377) (xy 53.177557 91.389424) (xy 53.172681 91.416866)
+				(xy 53.171317 91.420628) (xy 53.153275 91.452171) (xy 53.15116 91.454861) (xy 53.124039 91.480523)
+				(xy 53.121647 91.48227) (xy 53.084233 91.502896) (xy 53.081774 91.503907) (xy 53.040276 91.515665)
+				(xy 53.036654 91.5161) (xy 52.974631 91.51381) (xy 52.97463 91.513809) (xy 52.964951 91.513452)
+				(xy 52.959416 91.513248) (xy 52.954148 91.511774) (xy 52.901329 91.48231) (xy 52.897613 91.479037)
+				(xy 52.881579 91.457298) (xy 52.879956 91.454228) (xy 52.870139 91.426223) (xy 52.869518 91.421435)
+				(xy 52.870194 91.412928) (xy 52.874266 91.404954) (xy 52.875165 91.40426) (xy 52.878322 91.402063)
+				(xy 52.885056 91.399967) (xy 52.919386 91.400135) (xy 52.963261 91.399749) (xy 52.975408 91.391842)
+				(xy 52.977584 91.384178) (xy 52.983142 91.377158) (xy 52.988839 91.375677) (xy 53.166037 91.375677)
 			)
 		)
 	)
@@ -145205,7 +145172,7 @@
 		(net "SDRAM_VCC")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30578)
+		(priority 30517)
 		(attr
 			(teardrop
 				(type padvia)
@@ -145220,25 +145187,23 @@
 		)
 		(polygon
 			(pts
-				(xy 52.98 91.375677) (xy 52.975408 91.391842) (xy 52.963261 91.399749) (xy 52.919386 91.400135)
-				(xy 52.88136 91.39995) (xy 52.870633 91.407415) (xy 52.869323 91.423895) (xy 53.08 91.603778) (xy 52.869323 91.423895)
-				(xy 52.880537 91.455885) (xy 52.899117 91.481077) (xy 52.956605 91.513145) (xy 53.038501 91.516169)
-				(xy 53.083061 91.503543) (xy 53.122955 91.48155) (xy 53.152417 91.453673) (xy 53.172326 91.418864)
-				(xy 53.18 91.375677)
+				(xy 52.980052 91.073225) (xy 52.97686 91.132758) (xy 52.962353 91.171901) (xy 52.937274 91.207524)
+				(xy 52.902919 91.254997) (xy 53.090167 91.385206) (xy 53.277081 91.254997) (xy 53.229533 91.194061)
+				(xy 53.19442 91.144958) (xy 53.179948 91.066777)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 53.17431 91.379104) (xy 53.177737 91.387377) (xy 53.177557 91.389424) (xy 53.172681 91.416866)
-				(xy 53.171317 91.420628) (xy 53.153275 91.452171) (xy 53.15116 91.454861) (xy 53.124039 91.480523)
-				(xy 53.121647 91.48227) (xy 53.084233 91.502896) (xy 53.081774 91.503907) (xy 53.040276 91.515665)
-				(xy 53.036654 91.5161) (xy 52.974631 91.51381) (xy 52.97463 91.513809) (xy 52.964951 91.513452)
-				(xy 52.959416 91.513248) (xy 52.954148 91.511774) (xy 52.901329 91.48231) (xy 52.897613 91.479037)
-				(xy 52.881579 91.457298) (xy 52.879956 91.454228) (xy 52.870139 91.426223) (xy 52.869518 91.421435)
-				(xy 52.870194 91.412928) (xy 52.874266 91.404954) (xy 52.875165 91.40426) (xy 52.878322 91.402063)
-				(xy 52.885056 91.399967) (xy 52.919386 91.400135) (xy 52.963261 91.399749) (xy 52.975408 91.391842)
-				(xy 52.977584 91.384178) (xy 52.983142 91.377158) (xy 52.988839 91.375677) (xy 53.166037 91.375677)
+				(xy 53.172072 91.067921) (xy 53.174219 91.06873) (xy 53.180351 91.074056) (xy 53.180876 91.075016)
+				(xy 53.182118 91.078502) (xy 53.19442 91.144959) (xy 53.229525 91.194052) (xy 53.26805 91.243423)
+				(xy 53.270102 91.2475) (xy 53.270577 91.249216) (xy 53.269482 91.258103) (xy 53.268748 91.259399)
+				(xy 53.265255 91.263233) (xy 53.098759 91.379219) (xy 53.094574 91.381048) (xy 53.091684 91.381681)
+				(xy 53.084707 91.381063) (xy 53.084649 91.381039) (xy 53.082443 91.379834) (xy 52.914615 91.26313)
+				(xy 52.911451 91.259847) (xy 52.910487 91.258345) (xy 52.908902 91.249537) (xy 52.90926 91.247896)
+				(xy 52.911209 91.24354) (xy 52.937274 91.207524) (xy 52.962353 91.171901) (xy 52.97686 91.132758)
+				(xy 52.979352 91.086268) (xy 52.980478 91.081851) (xy 52.981377 91.079973) (xy 52.987569 91.074168)
+				(xy 52.988865 91.073648) (xy 52.992846 91.072811) (xy 53.167575 91.067175)
 			)
 		)
 	)
@@ -145622,6 +145587,46 @@
 		(net "VDD_SER_PLL")
 		(layer "B.Cu")
 		(hatch none 0.1)
+		(priority 30039)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 60.686196 125.787352) (xy 60.667251 125.675693) (xy 60.649039 125.587055) (xy 60.64146 125.499182)
+				(xy 60.657463 125.423142) (xy 60.678355 125.393017) (xy 60.71 125.37) (xy 60.429989 125.199) (xy 60.151873 125.379418)
+				(xy 60.172564 125.611581) (xy 60.186225 125.792615)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 60.437411 125.203532) (xy 60.693056 125.359653) (xy 60.696409 125.362743) (xy 60.697462 125.364188)
+				(xy 60.699564 125.37287) (xy 60.699484 125.373385) (xy 60.694828 125.381034) (xy 60.694805 125.381051)
+				(xy 60.679051 125.392509) (xy 60.678441 125.392887) (xy 60.657469 125.423128) (xy 60.657466 125.423133)
+				(xy 60.657461 125.423149) (xy 60.641459 125.499183) (xy 60.649039 125.587056) (xy 60.667193 125.675417)
+				(xy 60.667232 125.675616) (xy 60.667271 125.675824) (xy 60.667306 125.676023) (xy 60.683513 125.771546)
+				(xy 60.683385 125.776106) (xy 60.682989 125.777841) (xy 60.677807 125.785145) (xy 60.6778 125.785149)
+				(xy 60.676882 125.785725) (xy 60.670787 125.787513) (xy 60.199516 125.792474) (xy 60.195029 125.791631)
+				(xy 60.193171 125.790884) (xy 60.18693 125.78497) (xy 60.1863 125.783618) (xy 60.185238 125.779559)
+				(xy 60.172564 125.611581) (xy 60.152704 125.38875) (xy 60.153193 125.384216) (xy 60.15416 125.381134)
+				(xy 60.158954 125.374822) (xy 60.421859 125.204272) (xy 60.426095 125.202584) (xy 60.429189 125.202013)
+			)
+		)
+	)
+	(zone
+		(net "VDD_SER_PLL")
+		(layer "B.Cu")
+		(hatch none 0.1)
 		(priority 30038)
 		(attr
 			(teardrop
@@ -145656,46 +145661,6 @@
 				(xy 60.180329 125.039348) (xy 60.159682 125.025978) (xy 60.156408 125.022798) (xy 60.154577 125.020142)
 				(xy 60.152555 125.012472) (xy 60.172591 124.785576) (xy 60.185034 124.620707) (xy 60.186257 124.616318)
 				(xy 60.187164 124.614524) (xy 60.193587 124.608817) (xy 60.194999 124.608302) (xy 60.199117 124.607596)
-			)
-		)
-	)
-	(zone
-		(net "VDD_SER_PLL")
-		(layer "B.Cu")
-		(hatch none 0.1)
-		(priority 30039)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 60.686196 125.787352) (xy 60.667251 125.675693) (xy 60.649039 125.587055) (xy 60.64146 125.499182)
-				(xy 60.657463 125.423142) (xy 60.678355 125.393017) (xy 60.71 125.37) (xy 60.429989 125.199) (xy 60.151873 125.379418)
-				(xy 60.172564 125.611581) (xy 60.186225 125.792615)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 60.437411 125.203532) (xy 60.693056 125.359653) (xy 60.696409 125.362743) (xy 60.697462 125.364188)
-				(xy 60.699564 125.37287) (xy 60.699484 125.373385) (xy 60.694828 125.381034) (xy 60.694805 125.381051)
-				(xy 60.679051 125.392509) (xy 60.678441 125.392887) (xy 60.657469 125.423128) (xy 60.657466 125.423133)
-				(xy 60.657461 125.423149) (xy 60.641459 125.499183) (xy 60.649039 125.587056) (xy 60.667193 125.675417)
-				(xy 60.667232 125.675616) (xy 60.667271 125.675824) (xy 60.667306 125.676023) (xy 60.683513 125.771546)
-				(xy 60.683385 125.776106) (xy 60.682989 125.777841) (xy 60.677807 125.785145) (xy 60.6778 125.785149)
-				(xy 60.676882 125.785725) (xy 60.670787 125.787513) (xy 60.199516 125.792474) (xy 60.195029 125.791631)
-				(xy 60.193171 125.790884) (xy 60.18693 125.78497) (xy 60.1863 125.783618) (xy 60.185238 125.779559)
-				(xy 60.172564 125.611581) (xy 60.152704 125.38875) (xy 60.153193 125.384216) (xy 60.15416 125.381134)
-				(xy 60.158954 125.374822) (xy 60.421859 125.204272) (xy 60.426095 125.202584) (xy 60.429189 125.202013)
 			)
 		)
 	)
@@ -155781,46 +155746,6 @@
 		(net "VDD_PLL")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30042)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 67.286136 118.000429) (xy 67.309554 118.111989) (xy 67.331023 118.198273) (xy 67.34199 118.283721)
-				(xy 67.32935 118.357805) (xy 67.310083 118.387296) (xy 67.28 118.41) (xy 67.560041 118.580999) (xy 67.831563 118.367586)
-				(xy 67.792115 118.191792) (xy 67.786221 118.045616) (xy 67.785719 117.980038)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 67.775816 117.981332) (xy 67.777492 117.981947) (xy 67.784075 117.988016) (xy 67.784745 117.989464)
-				(xy 67.785827 117.994287) (xy 67.786221 118.045608) (xy 67.792115 118.1918) (xy 67.829437 118.358112)
-				(xy 67.829548 118.362677) (xy 67.82901 118.365773) (xy 67.824713 118.372969) (xy 67.568259 118.574538)
-				(xy 67.564191 118.576604) (xy 67.563625 118.576763) (xy 67.561339 118.577403) (xy 67.554296 118.577176)
-				(xy 67.554242 118.577157) (xy 67.552028 118.576106) (xy 67.296666 118.420176) (xy 67.293307 118.41708)
-				(xy 67.292257 118.415639) (xy 67.290154 118.40694) (xy 67.290239 118.406397) (xy 67.294749 118.398868)
-				(xy 67.310083 118.387296) (xy 67.32935 118.357805) (xy 67.34199 118.283721) (xy 67.331023 118.198273)
-				(xy 67.309613 118.112227) (xy 67.309557 118.111991) (xy 67.30953 118.111872) (xy 67.30949 118.111687)
-				(xy 67.29562 118.045612) (xy 67.289453 118.016235) (xy 67.289405 118.011675) (xy 67.289735 118.009919)
-				(xy 67.294629 118.002424) (xy 67.295503 118.001827) (xy 67.301626 117.999796) (xy 67.771313 117.980625)
-			)
-		)
-	)
-	(zone
-		(net "VDD_PLL")
-		(layer "B.Cu")
-		(hatch none 0.1)
 		(priority 30048)
 		(attr
 			(teardrop
@@ -155855,6 +155780,46 @@
 				(xy 67.306967 118.769549) (xy 67.296101 118.761671) (xy 67.292999 118.758324) (xy 67.292067 118.756807)
 				(xy 67.290655 118.747967) (xy 67.290775 118.747464) (xy 67.296029 118.740212) (xy 67.296033 118.740209)
 				(xy 67.551081 118.584472) (xy 67.55536 118.582902) (xy 67.558272 118.582446)
+			)
+		)
+	)
+	(zone
+		(net "VDD_PLL")
+		(layer "B.Cu")
+		(hatch none 0.1)
+		(priority 30042)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 67.286136 118.000429) (xy 67.309554 118.111989) (xy 67.331023 118.198273) (xy 67.34199 118.283721)
+				(xy 67.32935 118.357805) (xy 67.310083 118.387296) (xy 67.28 118.41) (xy 67.560041 118.580999) (xy 67.831563 118.367586)
+				(xy 67.792115 118.191792) (xy 67.786221 118.045616) (xy 67.785719 117.980038)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 67.775816 117.981332) (xy 67.777492 117.981947) (xy 67.784075 117.988016) (xy 67.784745 117.989464)
+				(xy 67.785827 117.994287) (xy 67.786221 118.045608) (xy 67.792115 118.1918) (xy 67.829437 118.358112)
+				(xy 67.829548 118.362677) (xy 67.82901 118.365773) (xy 67.824713 118.372969) (xy 67.568259 118.574538)
+				(xy 67.564191 118.576604) (xy 67.563625 118.576763) (xy 67.561339 118.577403) (xy 67.554296 118.577176)
+				(xy 67.554242 118.577157) (xy 67.552028 118.576106) (xy 67.296666 118.420176) (xy 67.293307 118.41708)
+				(xy 67.292257 118.415639) (xy 67.290154 118.40694) (xy 67.290239 118.406397) (xy 67.294749 118.398868)
+				(xy 67.310083 118.387296) (xy 67.32935 118.357805) (xy 67.34199 118.283721) (xy 67.331023 118.198273)
+				(xy 67.309613 118.112227) (xy 67.309557 118.111991) (xy 67.30953 118.111872) (xy 67.30949 118.111687)
+				(xy 67.29562 118.045612) (xy 67.289453 118.016235) (xy 67.289405 118.011675) (xy 67.289735 118.009919)
+				(xy 67.294629 118.002424) (xy 67.295503 118.001827) (xy 67.301626 117.999796) (xy 67.771313 117.980625)
 			)
 		)
 	)
@@ -159764,6 +159729,45 @@
 		(net "SDRAM_VCC")
 		(layer "B.Cu")
 		(hatch none 0.1)
+		(priority 30366)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 53.18 92.44) (xy 53.197852 92.402822) (xy 53.240112 92.371058) (xy 53.318995 92.308995) (xy 53.08 92.039)
+				(xy 52.841005 92.308995) (xy 52.919888 92.371058) (xy 52.962981 92.40365) (xy 52.98 92.44)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 53.084839 92.046886) (xy 53.085015 92.046947) (xy 53.08996 92.050252) (xy 53.309234 92.297968)
+				(xy 53.311535 92.301911) (xy 53.312115 92.303594) (xy 53.31157 92.312532) (xy 53.31157 92.312533)
+				(xy 53.310924 92.313858) (xy 53.307641 92.317926) (xy 53.240222 92.37097) (xy 53.240112 92.371054)
+				(xy 53.240044 92.371107) (xy 53.239983 92.371153) (xy 53.197852 92.40282) (xy 53.184193 92.431267)
+				(xy 53.181455 92.434915) (xy 53.179112 92.437013) (xy 53.171305 92.44) (xy 52.989768 92.44) (xy 52.98529 92.439109)
+				(xy 52.982403 92.437913) (xy 52.976285 92.432065) (xy 52.962981 92.40365) (xy 52.920026 92.371162)
+				(xy 52.919918 92.371079) (xy 52.919807 92.370993) (xy 52.919825 92.370969) (xy 52.919738 92.370939)
+				(xy 52.852578 92.3181) (xy 52.84961 92.314633) (xy 52.848737 92.313078) (xy 52.847675 92.304189)
+				(xy 52.848076 92.302761) (xy 52.850574 92.298183) (xy 53.069699 92.050635) (xy 53.073325 92.047879)
+				(xy 53.074934 92.047095) (xy 53.083866 92.046551)
+			)
+		)
+	)
+	(zone
+		(net "SDRAM_VCC")
+		(layer "B.Cu")
+		(hatch none 0.1)
 		(priority 30127)
 		(attr
 			(teardrop
@@ -159800,45 +159804,6 @@
 				(xy 52.892673 91.655422) (xy 52.90972 91.62572) (xy 52.962083 91.529218) (xy 52.977423 91.461386)
 				(xy 52.979278 91.457218) (xy 52.98074 91.455151) (xy 52.987044 91.450666) (xy 52.987759 91.450459)
 				(xy 52.991006 91.45) (xy 53.167355 91.45)
-			)
-		)
-	)
-	(zone
-		(net "SDRAM_VCC")
-		(layer "B.Cu")
-		(hatch none 0.1)
-		(priority 30366)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 53.18 92.44) (xy 53.197852 92.402822) (xy 53.240112 92.371058) (xy 53.318995 92.308995) (xy 53.08 92.039)
-				(xy 52.841005 92.308995) (xy 52.919888 92.371058) (xy 52.962981 92.40365) (xy 52.98 92.44)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 53.084839 92.046886) (xy 53.085015 92.046947) (xy 53.08996 92.050252) (xy 53.309234 92.297968)
-				(xy 53.311535 92.301911) (xy 53.312115 92.303594) (xy 53.31157 92.312532) (xy 53.31157 92.312533)
-				(xy 53.310924 92.313858) (xy 53.307641 92.317926) (xy 53.240222 92.37097) (xy 53.240112 92.371054)
-				(xy 53.240044 92.371107) (xy 53.239983 92.371153) (xy 53.197852 92.40282) (xy 53.184193 92.431267)
-				(xy 53.181455 92.434915) (xy 53.179112 92.437013) (xy 53.171305 92.44) (xy 52.989768 92.44) (xy 52.98529 92.439109)
-				(xy 52.982403 92.437913) (xy 52.976285 92.432065) (xy 52.962981 92.40365) (xy 52.920026 92.371162)
-				(xy 52.919918 92.371079) (xy 52.919807 92.370993) (xy 52.919825 92.370969) (xy 52.919738 92.370939)
-				(xy 52.852578 92.3181) (xy 52.84961 92.314633) (xy 52.848737 92.313078) (xy 52.847675 92.304189)
-				(xy 52.848076 92.302761) (xy 52.850574 92.298183) (xy 53.069699 92.050635) (xy 53.073325 92.047879)
-				(xy 53.074934 92.047095) (xy 53.083866 92.046551)
 			)
 		)
 	)
@@ -165323,47 +165288,6 @@
 		(net "/ethernet/USB_P")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30191)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 65.083517 81.707904) (xy 65.142169 81.653478) (xy 65.218745 81.602769) (xy 65.318404 81.570401)
-				(xy 65.378502 81.565665) (xy 65.446307 81.570998) (xy 65.430707 81.219293) (xy 65.079002 81.203693)
-				(xy 65.084332 81.269957) (xy 65.08003 81.328867) (xy 65.046696 81.432312) (xy 64.983363 81.523217)
-				(xy 64.942096 81.566483)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 65.417689 81.218715) (xy 65.422121 81.219804) (xy 65.424008 81.220686) (xy 65.429863 81.226807)
-				(xy 65.430392 81.228084) (xy 65.431272 81.232044) (xy 65.445616 81.555453) (xy 65.444925 81.559961)
-				(xy 65.444318 81.561634) (xy 65.438275 81.568243) (xy 65.437184 81.568753) (xy 65.431312 81.569818)
-				(xy 65.378502 81.565665) (xy 65.318402 81.570399) (xy 65.218747 81.602767) (xy 65.142179 81.65347)
-				(xy 65.142167 81.653479) (xy 65.142145 81.653497) (xy 65.093484 81.698653) (xy 65.089595 81.701047)
-				(xy 65.087805 81.701711) (xy 65.079057 81.701465) (xy 65.077574 81.700818) (xy 65.07398 81.698367)
-				(xy 64.95182 81.576207) (xy 64.949283 81.572409) (xy 64.948571 81.570689) (xy 64.94852 81.561864)
-				(xy 64.949144 81.560306) (xy 64.951535 81.556584) (xy 64.983363 81.523217) (xy 65.046696 81.432312)
-				(xy 65.08003 81.328867) (xy 65.084332 81.269957) (xy 65.08025 81.21922) (xy 65.080779 81.21469)
-				(xy 65.081327 81.212991) (xy 65.087133 81.206177) (xy 65.088199 81.205632) (xy 65.094042 81.20436)
-			)
-		)
-	)
-	(zone
-		(net "/ethernet/USB_P")
-		(layer "B.Cu")
-		(hatch none 0.1)
 		(priority 30192)
 		(attr
 			(teardrop
@@ -165399,6 +165323,47 @@
 				(xy 65.415073 80.880033) (xy 65.415681 80.878359) (xy 65.421722 80.871755) (xy 65.422816 80.871244)
 				(xy 65.428684 80.87018) (xy 65.481498 80.874335) (xy 65.541596 80.869599) (xy 65.641255 80.837231)
 				(xy 65.717831 80.786522) (xy 65.76652 80.74134) (xy 65.770402 80.738951) (xy 65.772196 80.738286)
+			)
+		)
+	)
+	(zone
+		(net "/ethernet/USB_P")
+		(layer "B.Cu")
+		(hatch none 0.1)
+		(priority 30191)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 65.083517 81.707904) (xy 65.142169 81.653478) (xy 65.218745 81.602769) (xy 65.318404 81.570401)
+				(xy 65.378502 81.565665) (xy 65.446307 81.570998) (xy 65.430707 81.219293) (xy 65.079002 81.203693)
+				(xy 65.084332 81.269957) (xy 65.08003 81.328867) (xy 65.046696 81.432312) (xy 64.983363 81.523217)
+				(xy 64.942096 81.566483)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 65.417689 81.218715) (xy 65.422121 81.219804) (xy 65.424008 81.220686) (xy 65.429863 81.226807)
+				(xy 65.430392 81.228084) (xy 65.431272 81.232044) (xy 65.445616 81.555453) (xy 65.444925 81.559961)
+				(xy 65.444318 81.561634) (xy 65.438275 81.568243) (xy 65.437184 81.568753) (xy 65.431312 81.569818)
+				(xy 65.378502 81.565665) (xy 65.318402 81.570399) (xy 65.218747 81.602767) (xy 65.142179 81.65347)
+				(xy 65.142167 81.653479) (xy 65.142145 81.653497) (xy 65.093484 81.698653) (xy 65.089595 81.701047)
+				(xy 65.087805 81.701711) (xy 65.079057 81.701465) (xy 65.077574 81.700818) (xy 65.07398 81.698367)
+				(xy 64.95182 81.576207) (xy 64.949283 81.572409) (xy 64.948571 81.570689) (xy 64.94852 81.561864)
+				(xy 64.949144 81.560306) (xy 64.951535 81.556584) (xy 64.983363 81.523217) (xy 65.046696 81.432312)
+				(xy 65.08003 81.328867) (xy 65.084332 81.269957) (xy 65.08025 81.21922) (xy 65.080779 81.21469)
+				(xy 65.081327 81.212991) (xy 65.087133 81.206177) (xy 65.088199 81.205632) (xy 65.094042 81.20436)
 			)
 		)
 	)
@@ -169725,15 +169690,17 @@
 		(filled_polygon
 			(layer "In1.Cu")
 			(pts
-				(xy 51.387456 131.034903) (xy 51.3745 131.095862) (xy 51.3745 133.8305) (xy 51.360148 133.865148)
-				(xy 51.3255 133.8795) (xy 48.6245 133.8795) (xy 48.589852 133.865148) (xy 48.5755 133.8305) (xy 48.5755 131.032835)
+				(xy 51.387456 131.034903) (xy 51.3745 131.095862) (xy 51.3745 132.021981) (xy 51.360148 132.056629)
+				(xy 51.325557 132.070981) (xy 48.624557 132.074129) (xy 48.589892 132.059818) (xy 48.5755 132.025186)
+				(xy 48.5755 131.032835)
 			)
 		)
 		(filled_polygon
 			(layer "In1.Cu")
 			(pts
-				(xy 68.0245 131.047135) (xy 68.0245 133.8305) (xy 68.010148 133.865148) (xy 67.9755 133.8795) (xy 53.0245 133.8795)
-				(xy 52.989852 133.865148) (xy 52.9755 133.8305) (xy 52.9755 131.095863) (xy 52.962788 131.036061)
+				(xy 68.0245 131.047135) (xy 68.0245 132.002567) (xy 68.010148 132.037215) (xy 67.975557 132.051567)
+				(xy 53.024557 132.068999) (xy 52.989892 132.054688) (xy 52.9755 132.020056) (xy 52.9755 131.095863)
+				(xy 52.962788 131.036061)
 			)
 		)
 		(filled_polygon
@@ -169758,15 +169725,17 @@
 		(filled_polygon
 			(layer "In4.Cu")
 			(pts
-				(xy 51.387456 131.034903) (xy 51.3745 131.095862) (xy 51.3745 133.8305) (xy 51.360148 133.865148)
-				(xy 51.3255 133.8795) (xy 48.6245 133.8795) (xy 48.589852 133.865148) (xy 48.5755 133.8305) (xy 48.5755 131.032835)
+				(xy 51.387456 131.034903) (xy 51.3745 131.095862) (xy 51.3745 132.021981) (xy 51.360148 132.056629)
+				(xy 51.325557 132.070981) (xy 48.624557 132.074129) (xy 48.589892 132.059818) (xy 48.5755 132.025186)
+				(xy 48.5755 131.032835)
 			)
 		)
 		(filled_polygon
 			(layer "In4.Cu")
 			(pts
-				(xy 68.0245 131.047135) (xy 68.0245 133.8305) (xy 68.010148 133.865148) (xy 67.9755 133.8795) (xy 53.0245 133.8795)
-				(xy 52.989852 133.865148) (xy 52.9755 133.8305) (xy 52.9755 131.095863) (xy 52.962788 131.036061)
+				(xy 68.0245 131.047135) (xy 68.0245 132.002567) (xy 68.010148 132.037215) (xy 67.975557 132.051567)
+				(xy 53.024557 132.068999) (xy 52.989892 132.054688) (xy 52.9755 132.020056) (xy 52.9755 131.095863)
+				(xy 52.962788 131.036061)
 			)
 		)
 	)
@@ -180808,6 +180777,36 @@
 				(xy 50.73482 74.9495) (xy 49.70518 74.9495) (xy 49.683229 74.953866) (xy 49.661277 74.958233) (xy 49.611496 74.991495)
 				(xy 49.611495 74.991496) (xy 49.578233 75.041277) (xy 49.578233 75.041278) (xy 49.5695 75.08518)
 				(xy 47.5005 75.08518) (xy 47.5005 74.3545) (xy 47.522174 74.302174) (xy 47.5745 74.2805) (xy 56.546326 74.2805)
+			)
+		)
+	)
+	(zone
+		(layers "In1.Cu" "In4.Cu")
+		(uuid "0a93254e-6f37-4887-93ec-a9258c264c48")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.1)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.2)
+			(thermal_bridge_width 0.25)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 47.32 132.075652) (xy 69.32 132.05) (xy 69.3 134.08) (xy 47.33 134.08) (xy 47.33 132.07)
 			)
 		)
 	)
