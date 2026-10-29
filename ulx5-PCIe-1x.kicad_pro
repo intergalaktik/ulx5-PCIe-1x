@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.6,
-          "height": 2.1,
-          "width": 1.0
+          "drill": 0.0,
+          "height": 0.7,
+          "width": 0.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -88,55 +88,43 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|63740000|100350000|10cb96cc-6eb7-4b7e-906f-bac5c60c58b5|d15931f7-4ddc-42a1-8a15-ee7d9237b852",
+          "shorting_items|134803141|227117260|032bc232-9eb4-4048-b1f3-640c69b966f8|f3ea9498-fc6b-4a56-9b2c-bf4bf48fb83d",
           ""
         ],
         [
-          "clearance|65880001|103218399|0ed7554c-7af3-4242-b95f-798323c1edc7|e2d6b227-8f8d-46e4-a777-9d7ce30d1eb7",
+          "shorting_items|134803141|229213260|2d9af369-b9c9-45db-b77b-b830590e7ab2|af02f74f-fc3c-487f-9845-e4e68efde99e",
           ""
         ],
         [
-          "clearance|65880001|103871601|aaf7e845-fa1e-46c0-b0dc-6db1c7cacc8d|e2d6b227-8f8d-46e4-a777-9d7ce30d1eb7",
+          "shorting_items|135253140|227117260|032bc232-9eb4-4048-b1f3-640c69b966f8|c67213f2-c150-4e8f-a2a6-1f9ce18c0412",
           ""
         ],
         [
-          "clearance|67976001|103218399|617c8209-11ec-4ad4-906f-ad434bf0bf2f|71d58ed1-e579-4a14-a5db-31d4f7039ee1",
+          "shorting_items|135456340|229213260|2d9af369-b9c9-45db-b77b-b830590e7ab2|7db206d1-fd62-4cfa-9e95-6ef0d3035392",
           ""
         ],
         [
-          "clearance|67976001|104321600|25c2254a-86d8-4f11-a451-c4926aa7829a|71d58ed1-e579-4a14-a5db-31d4f7039ee1",
+          "shorting_items|135906342|227117260|032bc232-9eb4-4048-b1f3-640c69b966f8|2fa36374-53cb-4314-a190-fa7afdd7f859",
           ""
         ],
         [
-          "courtyards_overlap|53585240|88685238|17635f60-d9a9-4849-8602-c66e7e78be78|fa198edf-ee4a-424e-9706-adc8ed5672b4",
+          "shorting_items|135906342|229213260|2d9af369-b9c9-45db-b77b-b830590e7ab2|f26c5abf-9304-424d-b981-8a848bd76453",
           ""
         ],
         [
-          "shorting_items|63740000|100020000|10cb96cc-6eb7-4b7e-906f-bac5c60c58b5|9668ed58-e4aa-42eb-ae3d-55e9f848913e",
+          "shorting_items|142204741|226115261|cd811991-129d-41c2-9b12-a792da6ba8db|9668ed58-e4aa-42eb-ae3d-55e9f848913e",
           ""
         ],
         [
-          "shorting_items|63740000|100100000|10cb96cc-6eb7-4b7e-906f-bac5c60c58b5|e5a31a04-da73-4382-ba7a-608bc8698003",
+          "shorting_items|142204741|226332049|cd811991-129d-41c2-9b12-a792da6ba8db|d218ba1f-999d-474a-bad4-9b8e6fbb2429",
           ""
         ],
         [
-          "shorting_items|63740000|100350000|10cb96cc-6eb7-4b7e-906f-bac5c60c58b5|285ba42d-3b6a-4432-adf0-94d06ecdb7ab",
+          "shorting_items|142604741|226115261|8eae0f5d-4dc6-43da-9b8a-01eafa83aab8|9668ed58-e4aa-42eb-ae3d-55e9f848913e",
           ""
         ],
         [
-          "shorting_items|63740000|101400000|10cb96cc-6eb7-4b7e-906f-bac5c60c58b5|2caf4784-a88a-4d1f-878f-a907505fe2e5",
-          ""
-        ],
-        [
-          "shorting_items|63740000|101450000|10cb96cc-6eb7-4b7e-906f-bac5c60c58b5|d218ba1f-999d-474a-bad4-9b8e6fbb2429",
-          ""
-        ],
-        [
-          "shorting_items|65880001|104321600|e2d6b227-8f8d-46e4-a777-9d7ce30d1eb7|e53484a5-6883-493f-9f18-0b8a3a935c6b",
-          ""
-        ],
-        [
-          "shorting_items|67976001|103668401|71d58ed1-e579-4a14-a5db-31d4f7039ee1|8b8d229f-dc74-4b2b-9653-3c533aa28bee",
+          "shorting_items|142604741|226332049|8eae0f5d-4dc6-43da-9b8a-01eafa83aab8|d218ba1f-999d-474a-bad4-9b8e6fbb2429",
           ""
         ]
       ],
@@ -590,7 +578,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ulx5m-m2.kicad_pro",
+    "filename": "ulx5-PCIe-1x.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1578,6 +1566,18 @@
       {
         "netclass": "PCIe",
         "pattern": "/serdes/SER_CK_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/HighSpeed/DDMI0_TX*"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/HighSpeed/DDMI0_CLK_*"
+      },
+      {
+        "netclass": "DPHY",
+        "pattern": "/HighSpeed/LVDS*"
       }
     ]
   },
@@ -1596,7 +1596,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 100,
+    "annotate_start_num": 300,
     "annotation": {
       "method": 0,
       "sort_order": 0
@@ -1911,6 +1911,36 @@
         "DDMI1_CLK_P",
         "DDMI1_CLK_N"
       ],
+      "JTAG": [
+        "TDI",
+        "TDO",
+        "TCK",
+        "TMS"
+      ],
+      "LVDS0": [
+        "LVDS0_D0_N",
+        "LVDS0_D0_P",
+        "LVDS0_D1_N",
+        "LVDS0_D1_P",
+        "LVDS0_D2_N",
+        "LVDS0_D2_P",
+        "LVDS0_D3_N",
+        "LVDS0_D3_P",
+        "LVDS0_C_P",
+        "LVDS0_C_N"
+      ],
+      "LVDS1": [
+        "LVDS1_D0_N",
+        "LVDS1_D0_P",
+        "LVDS1_D1_N",
+        "LVDS1_D1_P",
+        "LVDS1_D2_N",
+        "LVDS1_D2_P",
+        "LVDS1_D3_N",
+        "LVDS1_D3_P",
+        "LVDS1_C_P",
+        "LVDS1_C_N"
+      ],
       "PCIe": [
         "PCIe_TX_P",
         "PCIe_TX_N",
@@ -1918,6 +1948,12 @@
         "PCIe_RX_N",
         "PCIe_CLK_P",
         "PCIe_CLK_N"
+      ],
+      "PI_JTAG": [
+        "PI_TCK",
+        "PI_TDI",
+        "PI_TDO",
+        "PI_TMS"
       ]
     },
     "connection_grid_size": 50.0,
@@ -1971,26 +2007,26 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ulx5m-m2.kicad_sch",
-        "name": "ulx5m-m2",
+        "filename": "ulx5-PCIe-1x.kicad_sch",
+        "name": "ulx5-PCIe-1x",
         "uuid": "9e5cbfd6-8186-4817-919e-acd256336bc8"
       }
     ],
-    "used_designators": "#PWR72,#PWR93,#PWR117,J6,J101-102,FID101-106,R66",
+    "used_designators": "H301-307,D101,A101,C3,C5,C59-66,#PWR51,#PWR60,#PWR72,#PWR93,#PWR95-97,#PWR101,#PWR105,#PWR111-115,#PWR117-121,#PWR131-132,#PWR134,#PWR136,#PWR146,#PWR152-153,#PWR159-160,#PWR169-176,#PWR178-179,J2,J6,J101-105,FID101-106,R5-6,R66-75,R101-102,R133-134,R137-140,R151-154",
     "variants": []
   },
   "sheets": [
     [
       "9e5cbfd6-8186-4817-919e-acd256336bc8",
-      "ulx5m-m2"
+      "ulx5-PCIe-1x"
     ],
     [
-      "7e2ec1e0-e32b-4531-8531-d387c18838b0",
-      "M.2 M Key"
+      "090ab659-f25f-457f-ab8f-314f54bc5c2c",
+      "Raspberry_Pico"
     ],
     [
-      "90d8a0fe-6e9e-4d1d-ad54-87aefda3ab86",
-      "PCIe Couple Caps4"
+      "dd7b78ab-5741-4267-a895-bd4ba4d03af7",
+      "HighSpeed"
     ],
     [
       "3a2aa01e-90a0-4f5c-bc35-5016c4c82a42",
@@ -2009,6 +2045,10 @@
       "gpdi-ram"
     ],
     [
+      "3b67bf4d-c966-4618-b78c-abe52a948139",
+      "PCIexpress_connector"
+    ],
+    [
       "5c4580e2-a442-496c-941e-38ded55dcc84",
       "ethernet"
     ],
@@ -2017,22 +2057,14 @@
       "serdes"
     ],
     [
-      "5d0595b3-944b-441f-b22b-db89ec1a22e6",
-      "PCIe Couple Caps3"
-    ],
-    [
-      "f596e965-9af1-41dd-9f15-6f309ad60165",
-      "PCIe Couple Caps2"
-    ],
-    [
-      "6b0ad683-ac06-4c6d-a09c-9523f796fa3b",
-      "PCIe Couple Caps1"
+      "989a7f1c-c246-42ea-a639-bd96635da03f",
+      "decap"
     ]
   ],
   "text_variables": {
     "project_creator": "Intergalaktik d.o.o.",
     "project_license": "CERN-OHL-S v2",
-    "project_name": "ULX5M-M2",
+    "project_name": "ULX5-PCIe",
     "project_version": "v001",
     "project_year": "2026"
   },

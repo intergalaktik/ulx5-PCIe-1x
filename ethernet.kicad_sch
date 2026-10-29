@@ -11163,78 +11163,6 @@
 		)
 		(uuid "fa551c9e-c3df-4b85-8976-723e5b6a3f48")
 	)
-	(global_label "VDD_CLK"
-		(shape output)
-		(at 252.73 194.31 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7d7152d5-87a7-412e-b6d9-44a5dd08267a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.73 183.1605 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VDD_CLK"
-		(shape output)
-		(at 257.81 194.31 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b024fa94-8377-4f6b-a422-c6d23f8846f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.81 183.1605 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VDD_CLK"
-		(shape output)
-		(at 262.89 194.31 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bdfcaad6-ec9e-47fa-9222-5c6a2e189475")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.89 183.1605 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(hierarchical_label "USB_CC2"
 		(shape passive)
 		(at 58.42 207.01 0)
@@ -11416,7 +11344,7 @@
 			(uuid "118b49b3-ef4d-4b0f-b073-14fc237a23cf")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "D3")
 					(unit 1)
@@ -11496,7 +11424,7 @@
 			(uuid "de9c9850-7f8a-4839-a5a5-bf33bac94f1c")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "D8")
 					(unit 1)
@@ -11587,7 +11515,7 @@
 			(uuid "340661ff-149c-4de4-9fa5-e67e69f33935")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "D7")
 					(unit 1)
@@ -11688,7 +11616,7 @@
 			(uuid "b8ab7a16-4f38-42fe-9673-bc02d0f9a776")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "BTN3")
 					(unit 1)
@@ -11789,7 +11717,7 @@
 			(uuid "5390638a-9743-4f3e-a1a1-79e8e6987a29")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "BTN2")
 					(unit 1)
@@ -11890,7 +11818,7 @@
 			(uuid "b7ce29ee-37af-4374-9d0f-356ff6a4e8e3")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "BTN1")
 					(unit 1)
@@ -11971,7 +11899,7 @@
 			(uuid "2c31052f-891a-4da4-9f76-8378405f97de")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R65")
 					(unit 1)
@@ -12049,7 +11977,7 @@
 			(uuid "ab38cda4-fbf9-4ce5-bff9-4e33a59ae0eb")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R146")
 					(unit 1)
@@ -12128,7 +12056,7 @@
 			(uuid "ecb0c7b6-f1ec-4594-9223-ff46300a00df")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR0116")
 					(unit 1)
@@ -12206,7 +12134,7 @@
 			(uuid "ecccdb69-ca27-49c4-9495-c78e5662b358")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR0142")
 					(unit 1)
@@ -12333,7 +12261,7 @@
 			(uuid "d4c1eb89-729c-4bdb-a500-6ed08f2b62af")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "J5")
 					(unit 1)
@@ -12411,7 +12339,7 @@
 			(uuid "42feaf15-76be-4c2b-912b-b4e20eda5fe5")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR0158")
 					(unit 1)
@@ -12503,7 +12431,7 @@
 			(uuid "9be70397-e5ae-47f8-b400-8a956c89965c")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "D12")
 					(unit 1)
@@ -12584,7 +12512,7 @@
 			(uuid "7670a48c-fa17-484e-b4cf-8650a0eacaf1")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "C95")
 					(unit 1)
@@ -12684,7 +12612,7 @@
 			(uuid "dfc98796-172a-413b-8d6b-942e64ab6dd1")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R61")
 					(unit 1)
@@ -12765,7 +12693,7 @@
 			(uuid "87cb8ac5-c237-44dc-9df7-f04be963f2e6")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "C94")
 					(unit 1)
@@ -12857,7 +12785,7 @@
 			(uuid "0052e3ca-e7e4-4925-b2f0-6e060ae215aa")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "D10")
 					(unit 1)
@@ -12936,7 +12864,7 @@
 			(uuid "12fe5a72-95a3-49ce-932f-6b09f183b5f5")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R55")
 					(unit 1)
@@ -13017,7 +12945,7 @@
 			(uuid "1cf890d2-6d07-4083-b58d-70729a7a1dec")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R87")
 					(unit 1)
@@ -13098,7 +13026,7 @@
 			(uuid "564bec13-46c9-4ff0-a36e-829ef4176fa2")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "C97")
 					(unit 1)
@@ -13176,7 +13104,7 @@
 			(uuid "4cccbb56-447b-4cc4-8820-9dcf9c64982b")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR0177")
 					(unit 1)
@@ -13257,7 +13185,7 @@
 			(uuid "d90251f1-2cd7-4b8a-a8c8-b7e90319e4e0")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "C100")
 					(unit 1)
@@ -13369,7 +13297,7 @@
 			(uuid "bfc9ea5b-73ea-4551-934c-be6441d3100d")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "D4")
 					(unit 1)
@@ -13447,7 +13375,7 @@
 			(uuid "ee79d1b1-756b-4e44-8ee4-b9f4a197407f")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR0155")
 					(unit 1)
@@ -13539,7 +13467,7 @@
 			(uuid "78288ebb-7eca-4906-bd88-5e3ecfbd7ba0")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "D9")
 					(unit 1)
@@ -13619,7 +13547,7 @@
 			(uuid "7550c890-2c58-4e5a-a997-2ada9d530054")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "D6")
 					(unit 1)
@@ -13700,7 +13628,7 @@
 			(uuid "df55b102-53e8-4f7e-bad3-cc18ea3ca7d8")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R64")
 					(unit 1)
@@ -13778,7 +13706,7 @@
 			(uuid "e8cf9550-1326-412b-ba06-7d80056774b4")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR088")
 					(unit 1)
@@ -14824,7 +14752,7 @@
 			(uuid "32811c75-fc51-4cb1-ad81-a509d97cb9f6")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "U4")
 					(unit 4)
@@ -14903,7 +14831,7 @@
 			(uuid "491b1a37-b2e2-4c28-b15e-86f0ad532a3e")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R142")
 					(unit 1)
@@ -14984,7 +14912,7 @@
 			(uuid "a24e4464-9a99-41f8-9c54-07d8f309e6f1")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R88")
 					(unit 1)
@@ -15084,7 +15012,7 @@
 			(uuid "624227ea-d0cd-4831-8429-a911460b8ff4")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R44")
 					(unit 1)
@@ -15162,7 +15090,7 @@
 			(uuid "2fc5e2cc-cf79-44c7-9482-2a02bbeca5d4")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR0143")
 					(unit 1)
@@ -15254,7 +15182,7 @@
 			(uuid "464769a2-29d0-4097-b1f6-2be282b6d47a")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "D11")
 					(unit 1)
@@ -15335,7 +15263,7 @@
 			(uuid "c753dd45-0945-4198-8872-0c3a3842ae5f")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "C96")
 					(unit 1)
@@ -15414,7 +15342,7 @@
 			(uuid "2cdedb64-9fdb-4ab6-ac42-635b7155244a")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R47")
 					(unit 1)
@@ -15506,7 +15434,7 @@
 			(uuid "486ba9f1-6b2b-47de-89db-e747342a0c36")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "D13")
 					(unit 1)
@@ -15583,7 +15511,7 @@
 			(uuid "bfcde027-ca8a-422e-8568-ef60bc426d8b")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#FLG020")
 					(unit 1)
@@ -15661,7 +15589,7 @@
 			(uuid "bff7917e-c8c0-414f-b98a-82cef8f2300d")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R118")
 					(unit 1)
@@ -15753,7 +15681,7 @@
 			(uuid "6cc1a9ec-3f8a-4c82-a3e7-2054f243c530")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "D15")
 					(unit 1)
@@ -15830,7 +15758,7 @@
 			(uuid "e682a3d2-3c08-4fed-b669-b364099fff4a")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#FLG019")
 					(unit 1)
@@ -15911,7 +15839,7 @@
 			(uuid "9a09af8a-cab6-4233-b813-6d6b19dec681")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R63")
 					(unit 1)
@@ -15990,9 +15918,88 @@
 			(uuid "9888e5c5-43be-4621-83af-c1794be2b7dc")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 252.73 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8886ee84-5d7e-4dbd-92bc-423b65221600")
+		(property "Reference" "#PWR095"
+			(at 252.73 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 252.73 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 252.73 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2dbc0ea1-cb24-496b-bf47-3dcf8e65743c")
+		)
+		(instances
+			(project "ulx5-PCIe-1x"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -16082,7 +16089,7 @@
 			(uuid "3dd03ad8-2123-481b-adef-5efeecf0779a")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "D16")
 					(unit 1)
@@ -16160,7 +16167,7 @@
 			(uuid "d8c0af08-7e09-4992-be74-e1b01ffa9978")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R145")
 					(unit 1)
@@ -16239,7 +16246,7 @@
 			(uuid "fb5532d4-5632-407e-a2cc-42aded577910")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R141")
 					(unit 1)
@@ -16320,9 +16327,88 @@
 			(uuid "8b7b783a-b954-4e94-852f-fafa7cdd31ff")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 262.89 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92de20ce-e5fa-4dd9-9f20-1c11d749004c")
+		(property "Reference" "#PWR097"
+			(at 262.89 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 262.89 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 262.89 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a4a4a55-74f6-4655-a144-f5a73408e803")
+		)
+		(instances
+			(project "ulx5-PCIe-1x"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -16401,7 +16487,7 @@
 			(uuid "9d543129-27d4-4dd6-be75-0e3d130a0ee4")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "C103")
 					(unit 1)
@@ -16479,7 +16565,7 @@
 			(uuid "0575be01-7981-41c2-ae67-5c82fee0d830")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR0157")
 					(unit 1)
@@ -16560,7 +16646,7 @@
 			(uuid "4881d177-bec9-46eb-a521-bad16bcc0486")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R59")
 					(unit 1)
@@ -16640,7 +16726,7 @@
 			(uuid "aae96be8-026d-4c04-8ab6-67c483f4ebeb")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR0156")
 					(unit 1)
@@ -16719,7 +16805,7 @@
 			(uuid "c24bcb5e-299a-4b7b-9c31-0bdfd5149ae7")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR082")
 					(unit 1)
@@ -16811,7 +16897,7 @@
 			(uuid "b9bee9f6-1b65-4a16-a0bc-37f30065afca")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "D14")
 					(unit 1)
@@ -16889,7 +16975,7 @@
 			(uuid "7c314c03-bf09-47ad-a60c-dbe740ef9b6d")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR094")
 					(unit 1)
@@ -16968,7 +17054,7 @@
 			(uuid "56411efd-d506-4a14-8177-9ca8bca2ff63")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR076")
 					(unit 1)
@@ -17068,7 +17154,7 @@
 			(uuid "6af5f564-1e86-44d7-9689-7fe7ecb7d31a")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R62")
 					(unit 1)
@@ -17148,7 +17234,7 @@
 			(uuid "a13e0eab-7f9c-4924-95e3-25d0e53bc34f")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "D5")
 					(unit 1)
@@ -17248,7 +17334,7 @@
 			(uuid "6e900b56-a012-4c5e-b8de-dcd8b716f51e")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R45")
 					(unit 1)
@@ -17329,7 +17415,7 @@
 			(uuid "ba273b73-780a-4665-bb2c-851e539a96fa")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "C98")
 					(unit 1)
@@ -17407,7 +17493,7 @@
 			(uuid "99573573-fa76-4ef0-a944-67ad731b7902")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR087")
 					(unit 1)
@@ -17488,9 +17574,88 @@
 			(uuid "b110b5e9-9b15-4e63-b1d3-fad58cf9c254")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "C102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 257.81 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efda5332-2a79-4654-b7d4-bb853573dd27")
+		(property "Reference" "#PWR096"
+			(at 257.81 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 257.81 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 257.81 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc543f39-3db3-4e8d-b2e1-46a2b34c423a")
+		)
+		(instances
+			(project "ulx5-PCIe-1x"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -17566,7 +17731,7 @@
 			(uuid "83b4f8de-a0fc-4b89-b487-d17a01ae988b")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR085")
 					(unit 1)
@@ -17645,7 +17810,7 @@
 			(uuid "c78400e4-20bb-45b1-a7aa-fb7e064a54b7")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R48")
 					(unit 1)
@@ -17724,7 +17889,7 @@
 			(uuid "0918b5a6-ff9b-4ad6-a051-5129cbed873c")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R46")
 					(unit 1)
@@ -17805,7 +17970,7 @@
 			(uuid "d0d32400-a946-4e29-a72b-43f23348937f")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R95")
 					(unit 1)
@@ -17883,7 +18048,7 @@
 			(uuid "30779c7d-d98c-4089-9f5d-4b524389d307")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R144")
 					(unit 1)
@@ -17961,7 +18126,7 @@
 			(uuid "b86c7eb1-169c-4ef3-b33c-ed2bfd76c014")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR0106")
 					(unit 1)

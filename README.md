@@ -1,40 +1,7 @@
 # Work in progress!!! 
 
-# Please check the list of confirmed working
-
-# ULX5M-GS
-GateMate FPGA on M2 card
-
-![TOP](/pic/ulx5m-m2-top.jpg)
-![BOTTOM](/pic/ulx5m-m2-bottom.jpg)
-
-## Blinky
-
-[![Blinky video](/pic/ulx5m-m2-blinky.png)](/pic/ulx5m-m2-blinky.mp4)
-
-#### ULX5M-M2 V001
-
-- [x] JTAG 
-- [x] FLASH
-- [x] LEDs
-- [x] Blinkey
-- [x] USB - device shows up
-- [] BTNS
-- [] SDRAM
-- [x] SerDes with connection to ULX5M-GS - low speed 1.25Gbit/s SerDes transfer.
-- [] PCIe
-
-#### ULX5M-M2 V002 - ready for order
-
-- [] JTAG 
-- [] FLASH
-- [] LEDs
-- [] Blinkey
-- [] USB - device shows up
-- [] BTNS
-- [] SDRAM
-- [] SerDes with connection to ULX5M-GS I am getting low speed SerDes transfer.
-- [] PCIe
+# ULX-PCIe
+GateMate FPGA on PCIe card
 
 ## References
 

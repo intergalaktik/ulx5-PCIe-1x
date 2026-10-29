@@ -8767,6 +8767,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 49.53) (xy 179.07 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf1a0d9-7926-43c7-971c-f253e7111c79")
+	)
+	(wire
+		(pts
 			(xy 363.22 93.98) (xy 363.22 96.52)
 		)
 		(stroke
@@ -8877,6 +8887,36 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 90.17) (xy 179.07 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321165d7-80a7-4a0a-add3-aecbc4f57000")
+	)
+	(wire
+		(pts
+			(xy 93.98 124.46) (xy 93.98 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3618135f-cc95-4d36-b2f6-8d3b7761624b")
+	)
+	(wire
+		(pts
+			(xy 101.6 124.46) (xy 101.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c7d349-67ad-4f43-a573-6f190b3aee01")
+	)
+	(wire
+		(pts
 			(xy 163.83 31.75) (xy 163.83 33.02)
 		)
 		(stroke
@@ -8917,6 +8957,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 92.71) (xy 179.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea03b8a-0f60-4449-8d11-928ed7009fec")
+	)
+	(wire
+		(pts
 			(xy 447.04 52.07) (xy 457.2 52.07)
 		)
 		(stroke
@@ -8924,6 +8974,16 @@
 			(type default)
 		)
 		(uuid "3f335ec1-6b37-45b5-8876-6604417e2448")
+	)
+	(wire
+		(pts
+			(xy 167.64 57.15) (xy 179.07 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418a1fd4-7f5b-49f4-828b-2ef7243726ac")
 	)
 	(wire
 		(pts
@@ -8944,6 +9004,16 @@
 			(type default)
 		)
 		(uuid "45fc6a9d-8229-467a-ad51-caa49671993d")
+	)
+	(wire
+		(pts
+			(xy 167.64 54.61) (xy 179.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46bd48c6-3a95-4510-8dce-a1ed6e787fe1")
 	)
 	(wire
 		(pts
@@ -9217,6 +9287,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 87.63) (xy 179.07 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8962af57-93e6-4c4c-9eb2-bdc55d0ddd9d")
+	)
+	(wire
+		(pts
 			(xy 91.44 101.6) (xy 91.44 99.06)
 		)
 		(stroke
@@ -9287,6 +9367,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 52.07) (xy 179.07 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ccbe6a9-0549-40d3-9edc-26f771e532ea")
+	)
+	(wire
+		(pts
 			(xy 391.16 52.07) (xy 391.16 53.34)
 		)
 		(stroke
@@ -9354,6 +9444,16 @@
 			(type default)
 		)
 		(uuid "abf67f93-d23d-4f32-817c-ff304c0868b6")
+	)
+	(wire
+		(pts
+			(xy 69.85 123.19) (xy 69.85 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aecca781-6ad7-4c2b-bd70-d354765477cc")
 	)
 	(wire
 		(pts
@@ -9527,6 +9627,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 123.19) (xy 86.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d4e0a7-6897-4332-be1a-d35c5470662c")
+	)
+	(wire
+		(pts
 			(xy 381 52.07) (xy 381 53.34)
 		)
 		(stroke
@@ -9557,6 +9667,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 123.19) (xy 78.74 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9c6d16-3391-423a-bfa3-76825480688b")
+	)
+	(wire
+		(pts
 			(xy 370.84 58.42) (xy 370.84 59.69)
 		)
 		(stroke
@@ -9574,6 +9694,16 @@
 			(type default)
 		)
 		(uuid "e5b9bbbd-6c47-455b-b41f-6e14541aa3e5")
+	)
+	(wire
+		(pts
+			(xy 175.26 95.25) (xy 179.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54c3ec3-88ca-4097-89a7-ce4b8db29bd4")
 	)
 	(wire
 		(pts
@@ -9655,6 +9785,16 @@
 		)
 		(uuid "7fa71d2d-a45a-46a6-a4cf-30fe6b951df7")
 	)
+	(label "SDA0"
+		(at 172.72 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89d9f804-d998-4516-b323-0f817673a82c")
+	)
 	(label "VCC_WB"
 		(at 173.99 31.75 0)
 		(effects
@@ -9664,6 +9804,16 @@
 			(justify left bottom)
 		)
 		(uuid "a112ba83-9993-4643-bed9-3b1b81049897")
+	)
+	(label "SCL0"
+		(at 172.72 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6af4b7e-0676-49d1-8b82-4a689925448f")
 	)
 	(global_label "SDRAM_D5"
 		(shape input)
@@ -10393,6 +10543,30 @@
 			)
 		)
 	)
+	(global_label "FPGA_UART_TX"
+		(shape input)
+		(at 175.26 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c1a3563-a841-4162-87c0-f2a008e8bad0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.7886 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SDRAM_nRAS"
 		(shape input)
 		(at 63.5 83.82 180)
@@ -10434,6 +10608,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "FPGA_UART_RX"
+		(shape input)
+		(at 175.26 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "62498e68-bd27-4233-b7ab-6afa018f6974")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.4862 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -10500,6 +10698,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "FPGA_GPIO2"
+		(shape input)
+		(at 175.26 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7241387a-99bd-4d92-b34f-315804dc1aba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.9052 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -10788,6 +11010,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "FPGA_GPIO1"
+		(shape input)
+		(at 175.26 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5727776-1d02-46aa-b44f-e5c435cc3a06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.9052 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -11393,6 +11639,50 @@
 			)
 		)
 	)
+	(hierarchical_label "CAM_GPIO0"
+		(shape input)
+		(at 167.64 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00f69195-d837-49a0-a964-676557a567cb")
+	)
+	(hierarchical_label "CAM_GPIO1"
+		(shape input)
+		(at 167.64 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ae85c9e-3b83-4cd1-b78c-700798454de3")
+	)
+	(hierarchical_label "SCL0"
+		(shape input)
+		(at 167.64 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35e284d7-ccfb-4a58-8f89-c94405582af0")
+	)
+	(hierarchical_label "SDA0"
+		(shape input)
+		(at 167.64 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0793262-4abf-46d9-8743-7db8ecc05da7")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 78.74 104.14 0)
@@ -11463,7 +11753,7 @@
 			(uuid "a64b5ac8-0587-4ee3-bd1f-4d7335766fbe")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0163")
 					(unit 1)
@@ -11576,7 +11866,7 @@
 			(uuid "47125c01-10f5-4d10-9562-817df2b8a7b5")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C99")
 					(unit 1)
@@ -11654,7 +11944,7 @@
 			(uuid "4f207f0d-793e-472d-8749-a85ebad4b9e7")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0166")
 					(unit 1)
@@ -12700,7 +12990,7 @@
 			(uuid "a6e99983-1fc3-40be-b1f0-d54dfdb81b33")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "U4")
 					(unit 3)
@@ -12709,8 +12999,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 78.74 127 0)
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 148.59 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12718,9 +13009,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "22b88c0e-2008-4410-8f46-79c2c04b4739")
-		(property "Reference" "#PWR0172"
-			(at 78.74 130.81 0)
+		(fields_autoplaced yes)
+		(uuid "2253de10-fa54-42f7-a1c4-ccdeaf628f97")
+		(property "Reference" "#PWR0111"
+			(at 148.59 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12731,7 +13023,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 80.772 122.428 90)
+			(at 148.59 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12741,7 +13033,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 127 0)
+			(at 148.59 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12752,7 +13044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 127 0)
+			(at 148.59 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12762,8 +13054,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 78.74 127 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 148.59 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12774,12 +13066,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2874a24a-f565-4089-aa37-368b471fa212")
+			(uuid "d1e98c16-d998-4865-be09-09b7a8d17486")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
-					(reference "#PWR0172")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -12855,7 +13147,7 @@
 			(uuid "03f6ac9e-5293-4586-9cb5-b237c2a50b80")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#FLG017")
 					(unit 1)
@@ -12936,7 +13228,7 @@
 			(uuid "e67f4b75-b722-44ff-92fb-c1a940ffc798")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C77")
 					(unit 1)
@@ -13191,7 +13483,7 @@
 			(uuid "c460ed54-f06d-49ff-acb6-24e98350870b")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "U10")
 					(unit 1)
@@ -13304,7 +13596,7 @@
 			(uuid "eccc1182-ebc2-41bf-8f54-4d75e47eb915")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C101")
 					(unit 1)
@@ -13385,7 +13677,7 @@
 			(uuid "335017ce-f628-48e5-a967-67d28f8c966b")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C78")
 					(unit 1)
@@ -13466,7 +13758,7 @@
 			(uuid "33c9c0d8-6586-402b-8a4f-545b66731694")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C79")
 					(unit 1)
@@ -13543,7 +13835,7 @@
 			(uuid "42526ad4-3f2a-4354-bc71-a477e49c6fda")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0144")
 					(unit 1)
@@ -13621,7 +13913,7 @@
 			(uuid "bc41522e-6f35-4e34-8b8e-e95206966089")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR084")
 					(unit 1)
@@ -13699,86 +13991,9 @@
 			(uuid "20c676d3-8518-4d8d-aa3b-b384aaa651e8")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0164")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 93.98 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "419dfca2-daa8-48ff-9bb7-da8f0a8345ea")
-		(property "Reference" "#PWR0174"
-			(at 93.98 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 96.012 122.428 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 93.98 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b4790658-ac31-4683-88da-29e57f9ab480")
-		)
-		(instances
-			(project "ulx5m-m2"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
-					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
@@ -13854,86 +14069,9 @@
 			(uuid "b2522cdd-02c1-4ad0-9705-295af023bce3")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0167")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 69.85 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "51676ce8-2c24-4960-af29-fa4b40645b1b")
-		(property "Reference" "#PWR0171"
-			(at 69.85 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 71.882 122.428 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 69.85 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "73c58999-4d64-4785-990f-2face729410c")
-		)
-		(instances
-			(project "ulx5m-m2"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
-					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -14012,7 +14150,7 @@
 			(uuid "b283716d-0b2d-40c6-8696-7e7ed4e735bd")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C89")
 					(unit 1)
@@ -14089,7 +14227,7 @@
 			(uuid "1675da25-cd50-4903-a890-151bc16117f7")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0145")
 					(unit 1)
@@ -14166,7 +14304,7 @@
 			(uuid "b0ecc13f-4d99-4f4c-a712-d11d7fea89a2")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0148")
 					(unit 1)
@@ -14279,7 +14417,7 @@
 			(uuid "c6f59320-a16c-4f5f-b078-f041705f7b0f")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C140")
 					(unit 1)
@@ -14381,7 +14519,7 @@
 			(uuid "26111733-52e2-4fc4-a265-d0a8c4998515")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C85")
 					(unit 1)
@@ -14458,7 +14596,7 @@
 			(uuid "d775acb7-20c7-4817-9913-744368746e71")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0147")
 					(unit 1)
@@ -14536,7 +14674,7 @@
 			(uuid "e3c6b7ff-4098-430e-9d10-07b98322c6c1")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0138")
 					(unit 1)
@@ -14617,7 +14755,7 @@
 			(uuid "4d65249f-6952-4b12-8ff6-e3a911f6d3e5")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C86")
 					(unit 1)
@@ -14698,7 +14836,7 @@
 			(uuid "ee9e348e-6ea1-47dd-b2b9-ba73204c545e")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C93")
 					(unit 1)
@@ -14776,7 +14914,7 @@
 			(uuid "374b7531-e8c6-439b-83e8-dc978c4d697b")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0137")
 					(unit 1)
@@ -14857,7 +14995,7 @@
 			(uuid "e155ab6d-10c8-463c-bf30-4a95367f51d0")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C91")
 					(unit 1)
@@ -14938,7 +15076,7 @@
 			(uuid "bfb597f1-2714-4d97-a428-55aeff5e0154")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C80")
 					(unit 1)
@@ -15985,7 +16123,7 @@
 			(uuid "039f84b5-879e-490e-9ece-557dc3e80d44")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "U4")
 					(unit 6)
@@ -16063,7 +16201,7 @@
 			(uuid "4884c3f5-c861-406c-b151-725bd3722ec5")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0135")
 					(unit 1)
@@ -16141,9 +16279,163 @@
 			(uuid "0b04f70a-ac39-4b1a-8bff-b2ccfb01c3f0")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#FLG016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 86.36 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99d6f466-caec-43e6-b0dc-a4f7ac6e90e3")
+		(property "Reference" "#PWR0174"
+			(at 86.36 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SDRAM_VCC"
+			(at 88.646 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 86.36 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f49fd02-f8c4-41ac-8f4f-bd8964613f04")
+		)
+		(instances
+			(project "ulx5-PCIe-1x"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 69.85 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b540246-6210-4a68-9e23-74f0db7d4f2a")
+		(property "Reference" "#PWR0176"
+			(at 69.85 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SDRAM_VCC"
+			(at 72.136 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 69.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b7adebb-18e3-4de5-8492-f98213a77d46")
+		)
+		(instances
+			(project "ulx5-PCIe-1x"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
+					(reference "#PWR0176")
 					(unit 1)
 				)
 			)
@@ -16222,7 +16514,7 @@
 			(uuid "81fccf78-d359-4107-982e-dcb69468aa18")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C75")
 					(unit 1)
@@ -16303,9 +16595,86 @@
 			(uuid "199cd949-853f-4233-bb23-80232be68c5f")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 93.98 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a227d076-a128-49f6-aacd-6f985b45313c")
+		(property "Reference" "#PWR0170"
+			(at 93.98 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SDRAM_VCC"
+			(at 96.266 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 93.98 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7dc66c5-52e2-48de-bc9a-ee198d8b0038")
+		)
+		(instances
+			(project "ulx5-PCIe-1x"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -16381,7 +16750,7 @@
 			(uuid "1206260e-af57-4212-978f-1a9f4ff7cd05")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR092")
 					(unit 1)
@@ -16462,86 +16831,9 @@
 			(uuid "27b22975-73be-4523-a2ce-7bbe2625ffd2")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 148.59 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "abfa14b9-9961-4e28-a9aa-b9de4cc03d48")
-		(property "Reference" "#PWR0146"
-			(at 148.59 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SDRAM_VCC"
-			(at 150.622 25.908 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 148.59 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb4690bb-2866-4b60-b124-9dbdf8d6ccb6")
-		)
-		(instances
-			(project "ulx5m-m2"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
-					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -16618,7 +16910,7 @@
 			(uuid "9140d6b5-aa49-4bd1-8409-b171111b719a")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "R115")
 					(unit 1)
@@ -16731,7 +17023,7 @@
 			(uuid "b727a227-9dc7-49d2-b69b-bb66701d19cf")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C141")
 					(unit 1)
@@ -16808,9 +17100,86 @@
 			(uuid "69a53206-c8cf-4a90-9733-062d3cf88057")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 78.74 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b32933aa-8a28-4be6-81a1-6cc21aa2af0d")
+		(property "Reference" "#PWR0175"
+			(at 78.74 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SDRAM_VCC"
+			(at 81.026 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 78.74 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1f21351-ce7e-4660-adc5-4daef50ab5d6")
+		)
+		(instances
+			(project "ulx5-PCIe-1x"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
+					(reference "#PWR0175")
 					(unit 1)
 				)
 			)
@@ -16886,7 +17255,7 @@
 			(uuid "cd7588a9-0be5-4637-85c6-51a301c4d1dd")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#FLG013")
 					(unit 1)
@@ -16963,86 +17332,9 @@
 			(uuid "49ef9dd2-7df3-4bb5-9e5b-e9bfba2330c2")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0151")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 101.6 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b9b9a469-06e3-45f3-899c-889ddcfd14cd")
-		(property "Reference" "#PWR0175"
-			(at 101.6 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 103.632 122.428 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 101.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9a057a45-abe6-4646-8bd8-d56e64afadfc")
-		)
-		(instances
-			(project "ulx5m-m2"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
-					(reference "#PWR0175")
 					(unit 1)
 				)
 			)
@@ -17118,7 +17410,7 @@
 			(uuid "6cb11c67-c5bb-46e0-9256-f673737d646b")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0165")
 					(unit 1)
@@ -17199,7 +17491,7 @@
 			(uuid "7c68a558-08d9-44b0-9db4-045eca5a352d")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C88")
 					(unit 1)
@@ -17280,7 +17572,7 @@
 			(uuid "44adf5b5-e4b5-41db-a79a-5e90827d722d")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C87")
 					(unit 1)
@@ -17357,7 +17649,7 @@
 			(uuid "f72a32bd-39c7-45c0-ab98-2b266da12d23")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0149")
 					(unit 1)
@@ -17438,7 +17730,7 @@
 			(uuid "a09fa249-a7f6-4370-b0e4-d52c5475be8f")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C76")
 					(unit 1)
@@ -17516,7 +17808,7 @@
 			(uuid "b610fcea-618a-4da1-83e7-e1aa8fff1b69")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#FLG014")
 					(unit 1)
@@ -17593,7 +17885,7 @@
 			(uuid "5ae3f010-34a0-4d4a-aa68-e594df503570")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR090")
 					(unit 1)
@@ -17671,7 +17963,7 @@
 			(uuid "f4943d15-9cfa-49d8-9e73-06748abc032f")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#FLG012")
 					(unit 1)
@@ -17749,7 +18041,7 @@
 			(uuid "4497a26c-438a-47b7-8920-de7be2cd4b8a")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0168")
 					(unit 1)
@@ -17759,7 +18051,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 86.36 127 0)
+		(at 101.6 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17767,9 +18059,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d687fcc3-3d5c-4135-b3f7-ec2191b97ef9")
-		(property "Reference" "#PWR0173"
-			(at 86.36 130.81 0)
+		(uuid "db4d4631-197f-4f94-9246-5084b4a6f70b")
+		(property "Reference" "#PWR0169"
+			(at 101.6 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17779,8 +18071,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 88.392 122.428 90)
+		(property "Value" "SDRAM_VCC"
+			(at 103.886 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17790,7 +18082,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 127 0)
+			(at 101.6 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17801,7 +18093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 127 0)
+			(at 101.6 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17812,7 +18104,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 86.36 127 0)
+			(at 101.6 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17823,12 +18115,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d87be3de-ee55-407f-a4e3-33d3006fd572")
+			(uuid "903edab4-c1af-447a-8c57-f8169e27ef45")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
-					(reference "#PWR0173")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -17904,7 +18196,7 @@
 			(uuid "1ca43593-ebe9-4bf2-baf4-653801130668")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0162")
 					(unit 1)
@@ -17985,7 +18277,7 @@
 			(uuid "eb0df0d7-6326-49ea-9913-b34d3036ce0b")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C57")
 					(unit 1)
@@ -18063,7 +18355,7 @@
 			(uuid "6bf63ef9-65ee-44f0-8e32-558785ca2f4b")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR081")
 					(unit 1)
@@ -18144,7 +18436,7 @@
 			(uuid "a0b331b6-39b3-4e17-9279-321c3a416a44")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C92")
 					(unit 1)
@@ -18221,7 +18513,7 @@
 			(uuid "8f2b015e-fd5c-4cc4-974b-4be6fd0c0df8")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0150")
 					(unit 1)
@@ -18300,7 +18592,7 @@
 			(uuid "84ce470b-c379-4fe8-ad26-9ddb1a1f97e0")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "R116")
 					(unit 1)
@@ -18377,7 +18669,7 @@
 			(uuid "3326368c-c876-4097-a1f8-81ade2413f9a")
 		)
 		(instances
-			(project "ulx5m-m2"
+			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR0161")
 					(unit 1)
