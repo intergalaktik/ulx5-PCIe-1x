@@ -2354,7 +2354,7 @@
 		(uuid "00984ff5-e826-4a43-a2cf-3cfc84b697f0")
 	)
 	(label "PCIe_TX_P"
-		(at 123.19 137.16 180)
+		(at 124.46 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2394,7 +2394,7 @@
 		(uuid "2e0af99d-4de3-4585-99d9-2f45089e9efd")
 	)
 	(label "PCIe_RX_P"
-		(at 124.46 143.51 180)
+		(at 123.19 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2464,7 +2464,7 @@
 		(uuid "5069ca5d-1d0e-41ae-8672-882467029325")
 	)
 	(label "PCIe_TX_N"
-		(at 123.19 139.7 180)
+		(at 124.46 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2564,7 +2564,7 @@
 		(uuid "6e6fc2ea-531c-4fb1-9cea-10cc5a335dca")
 	)
 	(label "PCIe_RX_N"
-		(at 124.46 146.05 180)
+		(at 123.19 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)

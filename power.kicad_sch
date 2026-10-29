@@ -7989,8 +7989,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "LED"
-				(at 3.556 -4.572 90)
+			(property "Reference" "LED_P501"
+				(at 3.556 -7.112 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -8000,8 +8000,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at 5.715 -4.572 90)
+			(property "Value" "LowCur_green"
+				(at 5.715 -7.112 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -8011,7 +8011,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "M-SU-12V-v1r1:LED0603"
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8034,6 +8034,17 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8188,16 +8199,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 2.54 270)
+					(at 0 -5.08 90)
 					(length 2.54)
-					(name "A"
+					(name "1"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "A"
+					(number "1"
 						(effects
 							(font
 								(size 0 0)
@@ -8206,16 +8217,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 0 2.54 270)
 					(length 2.54)
-					(name "C"
+					(name "2"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "C"
+					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -19677,10 +19688,21 @@
 				)
 			)
 		)
-		(pin "C"
+		(property "LCSC" ""
+			(at 139.7 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
 			(uuid "133d9141-2841-456b-97ee-b992274f7f4f")
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "056ca588-a1dd-4ea5-9f79-ed65275e2d75")
 		)
 		(instances
