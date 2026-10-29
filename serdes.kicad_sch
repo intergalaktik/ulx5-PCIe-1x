@@ -15771,7 +15771,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "42c330fb-89cf-4181-80e1-4381bd27adac")
 		(property "Reference" "C136"
 			(at 143.51 35.56 90)
@@ -18356,7 +18356,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fd5aa958-74e1-4a61-84cc-14e4bb67b6c3")
 		(property "Reference" "C137"
 			(at 143.51 40.64 90)

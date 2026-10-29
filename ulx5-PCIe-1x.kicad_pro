@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
+          "border_hatch_pitch": 0.508,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.15,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
-          "min_thickness": 0.15,
-          "pad_connection": 1,
+          "min_thickness": 0.25,
+          "pad_connection": 3,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.15,
-          "thermal_relief_spoke_width": 0.35
+          "thermal_relief_gap": 0.508,
+          "thermal_relief_spoke_width": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -2012,7 +2012,7 @@
         "uuid": "9e5cbfd6-8186-4817-919e-acd256336bc8"
       }
     ],
-    "used_designators": "FID101-106,#GND501-510,#PWR51,#PWR60,#PWR72,#PWR93,#PWR95-97,#PWR101,#PWR105,#PWR109,#PWR111-115,#PWR117-121,#PWR131-132,#PWR134,#PWR136,#PWR146,#PWR152-153,#PWR159-160,#PWR169-176,#PWR178-181,J2,J6,J101-105,#P+501-503,R5-6,R66-75,R101-102,R133-134,R137-140,R151-154,R501-508,JP301-302,LED_P501-502,D101,A101,C3,C5,C59-66,C501-514,#U$501-502,REG501-502,H301-307,L501-502",
+    "used_designators": "FID101-106,#GND501-510,#PWR51,#PWR60,#PWR72,#PWR93,#PWR95-97,#PWR101-102,#PWR105,#PWR109,#PWR111-115,#PWR117-121,#PWR131-132,#PWR134,#PWR136,#PWR146,#PWR152-153,#PWR159-160,#PWR169-176,#PWR178-181,J2,J6,J101-105,#P+501-503,R5-6,R66-75,R101-102,R133-134,R137-140,R151-154,R501-508,JP301-302,LED_P501-502,D101,A101,C3,C5,C59-66,C501-514,#U$501-502,REG501-502,H301-307,L501-502",
     "variants": []
   },
   "sheets": [

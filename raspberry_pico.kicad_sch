@@ -1633,26 +1633,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "???"
-		(exclude_from_sim no)
-		(at 151.384 109.728 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "56b4b552-c949-43e1-a2ab-b752c07eb7a8")
-	)
-	(text "???"
-		(exclude_from_sim no)
-		(at 149.352 127 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "c21fffa6-1b60-4530-b885-b2e643c189fe")
-	)
 	(bus_entry
 		(at 30.48 135.89)
 		(size 2.54 2.54)
@@ -1711,6 +1691,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 124.46) (xy 149.86 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e588158-9856-4e66-bcae-66c8a08836ab")
+	)
+	(wire
+		(pts
 			(xy 33.02 138.43) (xy 44.45 138.43)
 		)
 		(stroke
@@ -1718,6 +1708,16 @@
 			(type default)
 		)
 		(uuid "6da03c83-ad68-43f7-a4e2-fef7868e9479")
+	)
+	(wire
+		(pts
+			(xy 146.05 124.46) (xy 149.86 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7916c9a4-d910-4fde-ad49-c56aa8669e86")
 	)
 	(bus
 		(pts
@@ -2378,6 +2378,84 @@
 			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/090ab659-f25f-457f-ab8f-314f54bc5c2c"
 					(reference "D101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a8095e4-305d-49d0-a47c-a4446fdd7bbe")
+		(property "Reference" "#PWR0102"
+			(at 149.86 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "767ad893-685a-46c8-bb4e-61692ce46bde")
+		)
+		(instances
+			(project "ulx5-PCIe-1x"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/090ab659-f25f-457f-ab8f-314f54bc5c2c"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
