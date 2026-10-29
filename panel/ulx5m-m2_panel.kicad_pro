@@ -1,0 +1,2681 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.05,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": false,
+          "text_position": 0,
+          "units_format": 1
+        },
+        "fab_line_width": 0.1,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": false,
+        "other_line_width": 0.15,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.6,
+          "height": 2.1,
+          "width": 1.0
+        },
+        "silk_line_width": 0.15,
+        "silk_text_italic": false,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15,
+        "silk_text_upright": false,
+        "zones": {
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.15,
+          "min_island_area": 10.0,
+          "min_thickness": 0.15,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.15,
+          "thermal_relief_spoke_width": 0.35
+        }
+      },
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.253,
+          "via_gap": 0.0,
+          "width": 0.127
+        },
+        {
+          "gap": 0.253,
+          "via_gap": 0.0,
+          "width": 0.147
+        }
+      ],
+      "drc_exclusions": [
+        "clearance|63690000|100320000|c2bab664-b31b-430f-945f-f6a147f6161e|59791553-8362-4ade-84ae-e7f0926aaa25",
+        "clearance|65830001|103188399|8fa2ab97-fa63-4f0b-82db-db01bf4a191f|b1ccc9aa-bf92-4ecf-a835-6020481d8492",
+        "clearance|65830001|103841601|df3eab8c-eb2b-4e90-b3a8-70f8eca435f6|b1ccc9aa-bf92-4ecf-a835-6020481d8492",
+        "clearance|67926001|103188399|c593970c-040c-4586-b5f8-24d83c465a23|c0714108-b0d0-40c4-899e-08eff97819d0",
+        "clearance|67926001|104291600|33574d53-a160-48ae-b3da-bc526a0157db|c0714108-b0d0-40c4-899e-08eff97819d0",
+        "courtyards_overlap|53535240|88655238|1e47a82b-2194-428b-8da9-7b78d909c0ce|95d1b819-3132-4eae-b5f6-5ff4a426a834",
+        "shorting_items|63690000|99990000|c2bab664-b31b-430f-945f-f6a147f6161e|4d8b3e28-d29d-4c5f-b4e5-0b8a7cf049aa",
+        "shorting_items|63690000|100070000|c2bab664-b31b-430f-945f-f6a147f6161e|66b63135-a80c-4eb8-a37a-005e35d70499",
+        "shorting_items|63690000|100320000|c2bab664-b31b-430f-945f-f6a147f6161e|39136ce9-e4da-4056-918a-1562ffb79ccb",
+        "shorting_items|63690000|101370000|c2bab664-b31b-430f-945f-f6a147f6161e|36b79e77-f48a-4a2b-a56d-2414a18f2d71",
+        "shorting_items|63690000|101420000|c2bab664-b31b-430f-945f-f6a147f6161e|3a84cd70-f112-4022-886e-fdd2b5294872",
+        "shorting_items|65830001|104291600|b1ccc9aa-bf92-4ecf-a835-6020481d8492|3c050ab8-67d4-4676-a6d2-3e595d11a04b",
+        "shorting_items|67926001|103638401|c0714108-b0d0-40c4-899e-08eff97819d0|044ae500-3e78-49ea-9d28-08c905a2f583"
+      ],
+      "meta": {
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "error",
+        "creepage": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
+        "footprint_symbol_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
+        "hole_clearance": "error",
+        "hole_near_hole": "error",
+        "hole_to_hole": "error",
+        "holes_co_located": "warning",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
+        "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
+        "npth_inside_courtyard": "ignore",
+        "padstack": "warning",
+        "pth_inside_courtyard": "ignore",
+        "shorting_items": "error",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+        "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_on_edge_cuts": "error",
+        "text_thickness": "warning",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_angle": "error",
+        "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
+        "track_segment_length": "error",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zones_intersect": "error"
+      },
+      "rules": {
+        "max_error": 0.005,
+        "min_clearance": 0.07,
+        "min_connection": 0.127,
+        "min_copper_edge_clearance": 0.2,
+        "min_groove_width": 0.0,
+        "min_hole_clearance": 0.1,
+        "min_hole_to_hole": 0.2,
+        "min_microvia_diameter": 0.4,
+        "min_microvia_drill": 0.2,
+        "min_resolved_spokes": 1,
+        "min_silk_clearance": 0.0508,
+        "min_text_height": 0.5,
+        "min_text_thickness": 0.1,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.35,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
+        "use_height_for_length_calcs": true
+      },
+      "teardrop_options": [
+        {
+          "td_onpthpad": true,
+          "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
+          "td_ontrackend": false,
+          "td_onvia": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 1,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 1,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 1,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
+      "track_widths": [
+        0.0,
+        0.127,
+        0.13,
+        0.147,
+        0.2,
+        0.23,
+        0.5,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        }
+      ],
+      "zones_allow_external_fillets": false
+    },
+    "ipc2581": {
+      "bom_rev": "",
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": "",
+      "sch_revision": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "ulx5m-m2_panel.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.07,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.13,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.253,
+        "diff_pair_width": 0.127,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "100R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.178,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "50R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.13,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "75R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 9,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.253,
+        "diff_pair_width": 0.147,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 10,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.147,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.253,
+        "diff_pair_width": 0.127,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-100R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.178,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-50R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.13,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-75R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 9,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.253,
+        "diff_pair_width": 0.147,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-90R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 10,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.147,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.253,
+        "diff_pair_width": 0.127,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-DPHY",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 0, 255)",
+        "track_width": 0.127,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.07,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.13,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.178,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-ETH",
+        "pcb_color": "rgb(0, 255, 255)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 255, 255)",
+        "track_width": 0.13,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.178,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-FTDI",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 132, 0)",
+        "track_width": 0.13,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.178,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-GPIO",
+        "pcb_color": "rgb(0, 0, 132)",
+        "priority": 6,
+        "schematic_color": "rgb(0, 0, 132)",
+        "track_width": 0.13,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.253,
+        "diff_pair_width": 0.127,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-HDMI",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 11,
+        "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.127,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.253,
+        "diff_pair_width": 0.147,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-PCIe",
+        "pcb_color": "rgb(194, 0, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(194, 0, 0)",
+        "track_width": 0.147,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 1.0,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.13,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-POE TAPS",
+        "pcb_color": "rgb(72, 72, 72)",
+        "priority": 12,
+        "schematic_color": "rgb(72, 72, 72)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.13,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-PSU",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.253,
+        "diff_pair_width": 0.147,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-USB3",
+        "pcb_color": "rgb(0, 255, 0)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 255, 0)",
+        "track_width": 0.147,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.253,
+        "diff_pair_width": 0.127,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DPHY",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 0, 255)",
+        "track_width": 0.127,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.178,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "ETH",
+        "pcb_color": "rgb(0, 255, 255)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 255, 255)",
+        "track_width": 0.13,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.178,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "FTDI",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 132, 0)",
+        "track_width": 0.13,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.178,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GPIO",
+        "pcb_color": "rgb(0, 0, 132)",
+        "priority": 6,
+        "schematic_color": "rgb(0, 0, 132)",
+        "track_width": 0.13,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.253,
+        "diff_pair_width": 0.127,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "HDMI",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 11,
+        "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.127,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.253,
+        "diff_pair_width": 0.147,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PCIe",
+        "pcb_color": "rgb(194, 0, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(194, 0, 0)",
+        "track_width": 0.147,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 1.0,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.13,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "POE TAPS",
+        "pcb_color": "rgb(72, 72, 72)",
+        "priority": 12,
+        "schematic_color": "rgb(72, 72, 72)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.13,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PSU",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.253,
+        "diff_pair_width": 0.147,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB3",
+        "pcb_color": "rgb(0, 255, 0)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 255, 0)",
+        "track_width": 0.147,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 5
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/JTAG_TMS"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/SPI_IO0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/JTAG_POR"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/serdes/SER_PORT_ADJ"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad58)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PET2N"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_B5-PadK2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/USB25_P"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_nCAS"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U6-n.c._1-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-VDD_CORE"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-VDD_SER_PLL"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4D-IO_EA_B5-PadJ15)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U7-1Y)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_DQM0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PERn3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_D11"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PETn2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/JTAG_CFG_MD0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4D-IO_EA_B6-PadH15)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PET1P"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_D12"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_D0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WC_A4-PadE3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4D-IO_EA_A4-PadJ18)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PETp1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/SPI_IO2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PERp2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U4G-NC)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad46)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PETp2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/lvds/DDMI0_HS_TX1_P"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/USB_CC1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad30)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/lvds/DDMI0_HS_TX2_N"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/BTN2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad56)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4D-IO_EA_A8-PadG16)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/SD_DAT3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U7-1B)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U6-n.c._2-Pad5)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/USB_PULL_P"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_DQM1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SA_B5-PadV8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U3-EN)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U3-FB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U8-1Y)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-VDD_SER"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad24)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_D10"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J101-Pin_4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4D-IO_EB_A0-PadF18)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_B4-PadK4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WC_B4-PadE4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SA_A5-PadU8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/USB_P"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/ALED2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/lvds/+1V8_SB"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D2-A)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad40)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4D-IO_EA_B3-PadK15)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_D9"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D1-A)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_D15"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_A0-PadN1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SA_A8-PadU10)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SA_B8-PadV10)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_A8"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-GND"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_nWE"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4D-IO_EA_B8-PadG15)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WC_B1-PadG4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_A8-PadH3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SA_B4-PadT8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/lvds/DDMI0_HS_TX0_P"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/BTN1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/LED4"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D6-A)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/JTAG_TDO"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J3-Pin_1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/LED0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/LED5"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J101-Pin_3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U3-SW-Pad15)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_CKE"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_VCC"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4D-IO_EA_B4-PadJ17)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-+3V3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SB_A1-PadR17)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/ALED6"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SB_A3-PadM17)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-+1V2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_D2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_D6"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SB_B2-PadP18)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_D8"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D5-K)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/SD_CLK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D8-A)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WC_B2-PadF4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WC_A1-PadG3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/ALED5"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_A7-PadH1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/JTAG_CFG_MD2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WC_A5-PadD1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "slash"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WC_A3-PadE1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/DEVSLP"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/PERST#"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_A12"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_A11"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-NC-PadB8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_A1-PadM3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/JTAG_TCK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/USB_PULL_N"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_B6-PadJ4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D7-K)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/FPD1-"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PERp3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_D7"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4C-IO_NB_B7-PadA14)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/SPI_CSN"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/SD_DAT1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/ALED3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_B0-PadN2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/ALED1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/CLKREQ#"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_D3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U1-FB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/JTAG_CFG_MD1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U4A-SER_RTERM)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad22)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4D-IO_EA_A6-PadH16)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_B7-PadH2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/~{CFG_FAIL}"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(X2-NC-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/USB25_N"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/LED1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PET3N"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/lvds/DDMI0_HS_CLK_P"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/PEWAKE#"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_A10"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SA_A4-PadR8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PERn1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_CLK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4D-IO_EA_A5-PadJ16)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_A5"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U5-SW)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U9-SCLK)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4D-IO_EA_A7-PadG18)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WC_A6-PadD3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WC_A2-PadF3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_BA0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PETn3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-NC-Pad11)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/USB_CC2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-+5V"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/LED3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SB_B0-PadU18)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U6-Y)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/SPI_IO1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_A9"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/ALED0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_A6-PadJ3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_B1-PadM4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/JTAG_CFG_MD3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PET2P"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-NC-PadA8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad42)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/ALED4"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PET1N"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-VDD_PLL"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-PG-Pad12)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_nRAS"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U1-SW)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SB_B3-PadM18)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SB_A0-PadU17)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_A3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_D13"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_D4"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/JTAG_TDI"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/+1V8_FLASH"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad36)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/lvds/DDMI0_HS_CLK_N"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad32)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SB_A2-PadP17)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U5-FB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad44)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_B3-PadL2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C24-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_A6"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J3-Pin_3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PETp3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/lvds/DDMI0_HS_TX2_P"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WC_B3-PadE2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WC_B0-PadG2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-DNC-Pad17)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SA_A6-PadR9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/SUSCLK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PERp1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4C-IO_NB_A7-PadB14)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_A4"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SA_A0-PadU5)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_A4-PadK3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(R7-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C6-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_B8-PadH4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/lvds/DDMI0_HS_TX0_N"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(BTN1-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/CFG_DONE"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad48)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U3-OUT_S)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_B2-PadL4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/ALED7"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_A2-PadL3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/USB_N"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(X2-OE)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_BA1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad67)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WC_A0-PadG1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/FPD1+"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/BTN3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J101-Pin_2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/LED1#"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PETn1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad20)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad26)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad34)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SA_B6-PadT9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J101-Pin_1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U8-1B)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-RST_N"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_A1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4D-IO_EA_B7-PadG17)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_D14"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/SPI_SCK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SB_B1-PadR18)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WC_B5-PadD2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SA_A7-PadR10)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/config/SPI_IO3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/USB_OTG_ID"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/LED6"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/SD_DAT2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_A5-PadK1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_A0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PERn2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/M.2 M Key/PET3P"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/LED2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/LED7"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_A7"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4F-IO_WB_A3-PadL1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad28)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/lvds/+3V3_SA"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/lvds/DDMI0_HS_TX1_N"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/PEDET"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_D5"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-DNC-Pad18)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_A2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/SD_DAT0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/lvds/CLK_25MHz"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_D1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4E-IO_SA_B7-PadT10)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-VDD_CLK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDRAM_nCS"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(R8-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J10-NC-Pad6)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ethernet/SD_CMD"
+      },
+      {
+        "netclass": "Board_0-90R",
+        "pattern": "Board_0-/CM5_connector/USB3*"
+      },
+      {
+        "netclass": "Board_0-100R",
+        "pattern": "Board_0-/CM5_connector/DPHY*"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/CM5_connector/HDMI*_D*"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/CM5_connector/HDMI*_CK*"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/GPIO*"
+      },
+      {
+        "netclass": "Board_0-90R",
+        "pattern": "Board_0-/CM5_connector/PCIE_*X_*"
+      },
+      {
+        "netclass": "Board_0-90R",
+        "pattern": "Board_0-/CM5_connector/PCIE_*CLK_*"
+      },
+      {
+        "netclass": "Board_0-90R",
+        "pattern": "Board_0-/CM5_connector/USB2*"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/HDMI0_S*"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/HDMI1_S*"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/HDMI1_CEC"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/HDMI0_CEC"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/HDMI0_HOT*"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/HDMI1_HOT*"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/ETH*"
+      },
+      {
+        "netclass": "Board_0-90R",
+        "pattern": "Board_0-/CM5_connector/TR*"
+      },
+      {
+        "netclass": "Board_0-ETH",
+        "pattern": "Board_0-/CM5_connector/TRD1_P"
+      },
+      {
+        "netclass": "Board_0-ETH",
+        "pattern": "Board_0-/CM5_connector/TRD1_N"
+      },
+      {
+        "netclass": "Board_0-ETH",
+        "pattern": "Board_0-/CM5_connector/TRD0_N"
+      },
+      {
+        "netclass": "Board_0-ETH",
+        "pattern": "Board_0-/CM5_connector/TRD0_P"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/TACHO"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/SYNC_OUT"
+      },
+      {
+        "netclass": "Board_0-ETH",
+        "pattern": "Board_0-/CM5_connector/TRD3_P"
+      },
+      {
+        "netclass": "Board_0-ETH",
+        "pattern": "Board_0-/CM5_connector/TRD3_N"
+      },
+      {
+        "netclass": "Board_0-ETH",
+        "pattern": "Board_0-/CM5_connector/TRD2_N"
+      },
+      {
+        "netclass": "Board_0-ETH",
+        "pattern": "Board_0-/CM5_connector/TRD2_P"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/ETH_LEDY"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/ETH_LEDG"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/HDMI0_SCL"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/HDMI0_SDA"
+      },
+      {
+        "netclass": "Board_0-USB3",
+        "pattern": "Board_0-/CM5_connector/USB3-0-RX_N"
+      },
+      {
+        "netclass": "Board_0-USB3",
+        "pattern": "Board_0-/CM5_connector/USB3-0-RX_P"
+      },
+      {
+        "netclass": "Board_0-USB3",
+        "pattern": "Board_0-/CM5_connector/USB3-0-D_P"
+      },
+      {
+        "netclass": "Board_0-USB3",
+        "pattern": "Board_0-/CM5_connector/USB3-0-D_N"
+      },
+      {
+        "netclass": "Board_0-USB3",
+        "pattern": "Board_0-/CM5_connector/USB3-0-TX_N"
+      },
+      {
+        "netclass": "Board_0-USB3",
+        "pattern": "Board_0-/CM5_connector/USB3-0-TX_P"
+      },
+      {
+        "netclass": "Board_0-USB3",
+        "pattern": "Board_0-/CM5_connector/USB3-1-RX_N"
+      },
+      {
+        "netclass": "Board_0-USB3",
+        "pattern": "Board_0-/CM5_connector/USB3-1-RX_P"
+      },
+      {
+        "netclass": "Board_0-USB3",
+        "pattern": "Board_0-/CM5_connector/USB3-1-D_P"
+      },
+      {
+        "netclass": "Board_0-USB3",
+        "pattern": "Board_0-/CM5_connector/USB3-1-D_N"
+      },
+      {
+        "netclass": "Board_0-USB3",
+        "pattern": "Board_0-/CM5_connector/USB3-1-TX_N"
+      },
+      {
+        "netclass": "Board_0-USB3",
+        "pattern": "Board_0-/CM5_connector/USB3-1-TX_P"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/CM5_connector/HDMI1_D2_P"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/CM5_connector/HDMI1_D2_N"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/CM5_connector/HDMI1_D1_P"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/CM5_connector/HDMI1_D1_N"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/CM5_connector/HDMI1_D0_P"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/CM5_connector/HDMI1_D0_N"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/CM5_connector/HDMI1_CK_P"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/CM5_connector/HDMI1_CK_N"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/CM5_connector/HDMI0_D2_P"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/CM5_connector/HDMI0_D2_N"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/CM5_connector/HDMI0_D1_P"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/CM5_connector/HDMI0_D1_N"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/CM5_connector/HDMI0_D0_N"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/CM5_connector/HDMI0_CK_P"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/CM5_connector/HDMI0_CK_N"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY0_D3_N"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/HDMI1_HOTPLUG"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/HDMI1_SDA"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/HDMI1_SCL"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/HDMI0_HOTPLUG"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY0_D0_N"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY0_D0_P"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY0_D1_N"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY0_D1_P"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY0_C_N"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY0_C_P"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY0_D2_N"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY0_D2_P"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY0_D3_P"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY1_D0_N"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY1_D0_P"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY1_D1_N"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY1_D1_P"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY1_C_N"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY1_C_P"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY1_D2_N"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY1_D2_P"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/ID_SC"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/ID_SD"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY1_D3_N"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/CM5_connector/DPHY1_D3_P"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/CM5_connector/PCIE_nCLKREQ"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/CM5_connector/PCIE_nWAKE"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/CM5_connector/PCIE_PWR_EN"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/CM5_connector/PCIE_CLK_P"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/CM5_connector/PCIE_CLK_N"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/CM5_connector/PCIE_RX_P"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/CM5_connector/PCIE_RX_N"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/CM5_connector/PCIE_TX_P"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/CM5_connector/PCIE_TX_N"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/CM5_connector/PCIE_nRST"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/FPGA_TCK_TO_SHIFT"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/FPGA_TDI_TO_SHIFT"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/FPGA_TDO_TO_SHIFT"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/FPGA_TMS_TO_SHIFT"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/UART1_RXD"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/UART1_TXD"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/UART1_CTS"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/UART1_RTS"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/UART2_RXD"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/FPGA_TCK"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/FPGA_TDI"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/FPGA_TDO"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/FPGA_TMS"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/UART2_TXD"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/UART2_CTS"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/UART2_RTS"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/UART3_RXD"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/UART3_TXD"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/UART3_CTS"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/UART3_RTS"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/UART3_DTR"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/ADB4"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/ADB5"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/ADB6"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/ADB7"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/BDB4"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/BDB5"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/BDB6"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/BDB7"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/CDB4"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/CDB5"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/CDB6"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/CDB7"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/DDB5"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/DDB6"
+      },
+      {
+        "netclass": "Board_0-FTDI",
+        "pattern": "Board_0-/FTDI/DDB7"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/SCL0"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/SDA0"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/SCL1"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/SDA1"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/CAM_GPIO0"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/CAM_GPIO1"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/SD_CLK"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/SD_DAT3"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/SD_DAT0"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/SD_DAT1"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/SD_DAT2"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/SD_PWR_ON"
+      },
+      {
+        "netclass": "Board_0-GPIO",
+        "pattern": "Board_0-/CM5_connector/SD_CMD"
+      },
+      {
+        "netclass": "Board_0-PSU",
+        "pattern": "Board_0-VCC_IN"
+      },
+      {
+        "netclass": "Board_0-PSU",
+        "pattern": "Board_0-VCC_5v0"
+      },
+      {
+        "netclass": "Board_0-PSU",
+        "pattern": "Board_0-VCC_5V0"
+      },
+      {
+        "netclass": "Board_0-PSU",
+        "pattern": "Board_0-VCC_1V8"
+      },
+      {
+        "netclass": "Board_0-PSU",
+        "pattern": "Board_0-VCC_3V3"
+      },
+      {
+        "netclass": "Board_0-PSU",
+        "pattern": "Board_0-/PSU/VCC_3V3_R0"
+      },
+      {
+        "netclass": "Board_0-PSU",
+        "pattern": "Board_0-VCC_VBUS"
+      },
+      {
+        "netclass": "Board_0-PSU",
+        "pattern": "Board_0-/CM5_connector/VBAT"
+      },
+      {
+        "netclass": "Board_0-PSU",
+        "pattern": "Board_0-/FTDI/USB_C_VBUS"
+      },
+      {
+        "netclass": "Board_0-PSU",
+        "pattern": "Board_0-/M2/M2_3v3"
+      },
+      {
+        "netclass": "Board_0-PSU",
+        "pattern": "Board_0-/HS/HDMI_5v"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/M2/PCIE_TX_N"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/M2/PCIE_TX_P"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/M2/PCIE_RX_N"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/M2/PCIE_RX_P"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/M2/PCIE_CLK_N"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/M2/PCIE_CLK_P"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/HS/DPHY0_*"
+      },
+      {
+        "netclass": "Board_0-DPHY",
+        "pattern": "Board_0-/HS/DPHY1*"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/VTM-AU-v0r0_1/PCIE_RX*"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/VTM-AU-v0r0_1/PCIE_TX*"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/HS/HDMI0_D*"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/HS/HDMI1_D*"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/HS/HDMI1_CK*"
+      },
+      {
+        "netclass": "Board_0-100R",
+        "pattern": "Board_0-/HS/HDMI0_CK*"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/HS/HDMI0_CK_P"
+      },
+      {
+        "netclass": "Board_0-HDMI",
+        "pattern": "Board_0-/HS/HDMI0_CK_N"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/M.2 M Key/PCIe_CLK_P"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/M.2 M Key/PCIe_CLK_N"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/M.2 M Key/PCIe_TX_P"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/M.2 M Key/PCIe_TX_N"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/M.2 M Key/PCIe_RX_P"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/M.2 M Key/PCIe_RX_N"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/M.2 M Key/PET0P"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/M.2 M Key/PET0N"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/serdes/SER_CLK_P"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/serdes/SER_CLK_N"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/serdes/SER_CK_P"
+      },
+      {
+        "netclass": "Board_0-PCIe",
+        "pattern": "Board_0-/serdes/SER_CK_N"
+      }
+    ]
+  },
+  "pcbnew": {
+    "last_paths": {
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "bus_aliases": {},
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "top_level_sheets": [
+      {
+        "filename": "ulx5m-m2_panel.kicad_sch",
+        "name": "ulx5m-m2_panel",
+        "uuid": "00000000-0000-0000-0000-000000000000"
+      }
+    ]
+  },
+  "sheets": [],
+  "text_variables": {
+    "project_creator": "Intergalaktik d.o.o.",
+    "project_license": "CERN-OHL-S v2",
+    "project_name": "ULX5M-M2",
+    "project_version": "v001",
+    "project_year": "2026"
+  },
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
+}
