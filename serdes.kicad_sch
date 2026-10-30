@@ -13097,7 +13097,7 @@
 		)
 		(uuid "172aaf83-f2c4-4d07-9529-5bf32c834d43")
 	)
-	(text "511FCA100M000BAG and SiT9365 should work\nIf SiT9365 is used please populate R143"
+	(text "511FCA100M000BAG and SiT9365 should work\nIf SiT9365 is used please populate R143\n\n\nAX3DCF1-100.0000T"
 		(exclude_from_sim no)
 		(at 36.83 105.156 0)
 		(effects
