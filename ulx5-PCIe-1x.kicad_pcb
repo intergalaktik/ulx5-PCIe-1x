@@ -122725,14 +122725,6 @@
 		(uuid "6dc80df4-beb5-446f-a67e-3a8c0701bae7")
 	)
 	(segment
-		(start 106.527228 223.042748)
-		(end 106.527228 222.830615)
-		(width 0.147)
-		(layer "F.Cu")
-		(net "/PCIexpress_connector/PCIe_CLK_N")
-		(uuid "86833abc-80be-4576-93fd-7786961dc5e2")
-	)
-	(segment
 		(start 106.759445 222.386265)
 		(end 106.527228 222.618482)
 		(width 0.147)
