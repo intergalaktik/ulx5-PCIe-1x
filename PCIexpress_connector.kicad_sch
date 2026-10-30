@@ -187,8 +187,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 3.81 0)
+			(property "Reference" "J2"
+				(at 0 4.2418 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -198,7 +198,7 @@
 				)
 			)
 			(property "Value" "PCIexpress_x1"
-				(at 0 1.27 0)
+				(at 0 1.9304 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -230,6 +230,16 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -806,7 +816,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin bidirectional line
 					(at -15.24 -33.02 0)
 					(length 3.81)
 					(name "RSVD"
@@ -1925,6 +1935,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 81.28) (xy 125.73 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "665c5a49-7f37-4cf7-abac-8a98a1fd2061")
+	)
+	(wire
+		(pts
 			(xy 156.21 55.88) (xy 158.75 55.88)
 		)
 		(stroke
@@ -2716,6 +2736,17 @@
 		)
 		(uuid "1ca303ee-9b1e-46b9-9178-08186183349d")
 	)
+	(hierarchical_label "CLKREQ#"
+		(shape input)
+		(at 120.65 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a4ecf4b-ae9e-46ee-8e7b-0cfbc7f8c159")
+	)
 	(hierarchical_label "~{WAKE}"
 		(shape input)
 		(at 120.65 76.2 180)
@@ -2895,6 +2926,17 @@
 		)
 		(property "Description" ""
 			(at 140.97 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 140.97 48.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

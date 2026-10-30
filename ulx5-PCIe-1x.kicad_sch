@@ -655,7 +655,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 109.22) (xy 156.21 109.22)
+			(xy 135.89 109.22) (xy 165.1 109.22)
 		)
 		(stroke
 			(width 0)
@@ -672,16 +672,6 @@
 			(type default)
 		)
 		(uuid "372438f9-a2dd-400c-a1d3-b1bae5ab263f")
-	)
-	(wire
-		(pts
-			(xy 135.89 119.38) (xy 156.21 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37740df6-4f58-4ee0-9e4d-da10898e341c")
 	)
 	(wire
 		(pts
@@ -812,16 +802,6 @@
 			(justify right bottom)
 		)
 		(uuid "21a2b514-bce9-4b9b-ba6a-1dda293fb778")
-	)
-	(label "LED1#"
-		(at 148.59 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b70d6fc1-c760-4393-b7e4-b287bd87d8d6")
 	)
 	(label "PERST#"
 		(at 148.59 104.14 180)
@@ -2795,6 +2775,16 @@
 				(justify right)
 			)
 		)
+		(pin "CLKREQ#" input
+			(at 165.1 109.22 180)
+			(uuid "760e023b-9d2a-48db-90b2-e2daefb05502")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ulx5-PCIe-1x"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8"
@@ -2938,16 +2928,6 @@
 		(pin "DEVSLP" input
 			(at 135.89 116.84 0)
 			(uuid "e3a641b5-f201-44c5-82b2-12a5483a9c08")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LED1#" output
-			(at 135.89 119.38 0)
-			(uuid "c4f6c1c5-759e-4068-bc76-df1d17984efb")
 			(effects
 				(font
 					(size 1.27 1.27)

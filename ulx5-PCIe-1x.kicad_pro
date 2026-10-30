@@ -766,7 +766,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.12,
+        "clearance": 0.111,
         "diff_pair_gap": 0.253,
         "diff_pair_width": 0.147,
         "line_style": 0,
@@ -1578,6 +1578,34 @@
       {
         "netclass": "DPHY",
         "pattern": "/HighSpeed/LVDS*"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/PCIexpress_connector/_PE*"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/PCIexpress_connector/PCIe_TX_N"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/PCIexpress_connector/PCIe_TX_P"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/PCIexpress_connector/PCIe_RX_N"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/PCIexpress_connector/PCIe_RX_P"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/PCIexpress_connector/PCIe_CLK_P"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/PCIexpress_connector/PCIe_CLK_N"
       }
     ]
   },
@@ -2012,7 +2040,7 @@
         "uuid": "9e5cbfd6-8186-4817-919e-acd256336bc8"
       }
     ],
-    "used_designators": "A101,D101,LED_P501-502,C3,C5,C59-66,C501-514,#U$501-502,REG501-502,H301-307,L501-502,#GND501-510,FID101-106,#PWR51,#PWR60,#PWR72,#PWR93,#PWR95-97,#PWR101-102,#PWR105,#PWR109,#PWR111-115,#PWR117-121,#PWR131-132,#PWR134,#PWR136,#PWR146,#PWR152-153,#PWR159-160,#PWR169-176,#PWR178-181,J2,J6,J101-105,#P+501-503,R5-6,R66-75,R101-102,R133-134,R137-140,R151-154,R501-508,JP301-302",
+    "used_designators": "J2,J6,J101-105,JP301-303,#P+501-503,R5-6,R66-75,R101-102,R133-134,R137-140,R151-154,R501-508,A101,D101,D301,LED_P501-502,C3,C5,C59-66,C501-514,#U$501-502,REG501-502,H301-307,L501-502,#GND501-510,FID101-106,#PWR51,#PWR60,#PWR72,#PWR93,#PWR95-97,#PWR101-102,#PWR105,#PWR109,#PWR111-115,#PWR117-121,#PWR131-132,#PWR134,#PWR136,#PWR146,#PWR152-153,#PWR159-160,#PWR169-176,#PWR178-181",
     "variants": []
   },
   "sheets": [
